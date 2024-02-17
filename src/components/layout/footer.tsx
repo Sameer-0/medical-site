@@ -8,29 +8,25 @@ const Footer = () => {
     <>
       <Separator className="bg-slate-200 h-[2px]" />
       <footer>
-        <div className="px-6 md:px-16 grid gap-5 sm:grid-cols-2 grid-cols-1 md:grid-cols-3 py-20">
+        <div className="px-6 md:px-16 grid gap-5 sm:grid-cols-2 grid-cols-1 md:grid-cols-3 py-8 md:py-20">
           <div className="col-span-full sm:col-span-2 md:col-span-1">
             <h3 className="text-2xl md:text-3xl font-semibold text-center md:text-left pb-5">
               Please feel free to get in touch with us
             </h3>
           </div>
-          <div className="col-span-full flex sm:col-span-2 justify-center gap-x-4 lg:gap-x-20">
-            <div>
-              <div className="flex gap-x-3 justify-center">
-                <MapPin className="w-5 h-7 text-primary" />
-                <div>
-                  <h5 className="font-semibold">Our Location</h5>
-                  <p className="text-muted">707 23rd Street, Galveston, TX</p>
-                </div>
+          <div className="col-span-full sm:col-span-2 flex flex-col md:flex-row justify-center gap-4 lg:gap-x-20">
+            <div className="w-fit flex gap-x-3 justify-center">
+              <MapPin className="w-5 h-7 text-primary" />
+              <div>
+                <h5 className="font-semibold">Our Location</h5>
+                <p className="text-muted">707 23rd Street, Galveston, TX</p>
               </div>
             </div>
-            <div>
-              <div className="flex gap-x-3 justify-center">
-                <Mails className="w-5 h-7 text-primary" />
-                <div>
-                  <h5 className="font-semibold">How Can We Help?</h5>
-                  <p className="text-muted">nfo.Mivaan@gmail.com</p>
-                </div>
+            <div className="w-fit flex gap-x-3 justify-center">
+              <Mails className="w-5 h-7 text-primary" />
+              <div>
+                <h5 className="font-semibold">How Can We Help?</h5>
+                <p className="text-muted">nfo.Mivaan@gmail.com</p>
               </div>
             </div>
           </div>
@@ -49,7 +45,7 @@ const Footer = () => {
           <div className="text-center col-span-2 md:col-span-1">
             © 2024-2025 Galveston Specialty Pharmacy <br /> All Rights Reserved
           </div>
-          <div className="col-span-full md:col-span-1 flex justify-center md:justify-end gap-x-2 pr-12">
+          <div className="col-span-full md:col-span-1 flex justify-center md:justify-end gap-x-2">
             <Link href="#">
               <i
                 aria-hidden

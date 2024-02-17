@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const AboutContainer = () => {
   return (
-    <div className="pt-16 md:pt-24">
+    <div className="pt-16 md:pt-24 px-10">
       <div className="grid grid-cols-12 gap-6">
         <div className="col-span-12 lg:col-span-5 flex justify-center items-center">
           <Image
