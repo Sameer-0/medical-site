@@ -1,5 +1,11 @@
 import { Slider } from "@/components/base";
-import { AboutContainer, Checkup, Emergency, Hero, Testimonials } from "@/components/layout";
+import {
+  AboutContainer,
+  Checkup,
+  Emergency,
+  Hero,
+  Testimonials,
+} from "@/components/layout";
 
 export default function Home() {
   return (

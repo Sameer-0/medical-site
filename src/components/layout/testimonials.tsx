@@ -2,7 +2,6 @@
 import useKeenSlider from "@/hooks/keen-slider";
 
 const Testimonials = () => {
-  console.log("INSIDE:::::::::::::::::::::;;;");
   useKeenSlider();
   return (
     <>
@@ -30,13 +29,13 @@ const Testimonials = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                     stroke="currentColor"
                     className="size-5 rtl:rotate-180"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="M15.75 19.5L8.25 12l7.5-7.5"
                     />
                   </svg>
@@ -56,9 +55,9 @@ const Testimonials = () => {
                   >
                     <path
                       d="M9 5l7 7-7 7"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                     />
                   </svg>
                 </button>
@@ -124,9 +123,9 @@ const Testimonials = () => {
               >
                 <path
                   d="M9 5l7 7-7 7"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                 />
               </svg>
             </button>
@@ -145,9 +144,9 @@ const Testimonials = () => {
               >
                 <path
                   d="M9 5l7 7-7 7"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                 />
               </svg>
             </button>
