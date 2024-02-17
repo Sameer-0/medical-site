@@ -4,7 +4,7 @@ const ContactCard = () => {
 
   return (
     <section className="text-gray-600 body-font relative">
-      <div className="absolute inset-0 py-10 pl-10 rounded-md">
+      <div className="absolute inset-0 md:py-10 md:pl-10 rounded-md">
         <iframe
           width="100%"
           height="100%"
