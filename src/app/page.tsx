@@ -1,4 +1,4 @@
-import { Slider } from "@/components/base";
+import { Divider, Slider } from "@/components/base";
 import {
   AboutContainer,
   Checkup,
@@ -13,11 +13,7 @@ export default function Home() {
       <Hero />
       <Slider />
       <AboutContainer />
-      <div className="py-20 flex gap-x-5 justify-center">
-        <div className="w-6 h-6 bg-primary/70 rounded-sm"></div>
-        <div className="w-6 h-6 bg-primary/70 rounded-sm"></div>
-        <div className="w-6 h-6 bg-primary/70 rounded-sm"></div>
-      </div>
+      <Divider />
       <Checkup />
       <Emergency />
       <Testimonials />

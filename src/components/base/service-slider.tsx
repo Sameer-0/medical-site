@@ -24,7 +24,7 @@ const responsive = {
     margin: 30,
   },
 };
-const Slider = () => {
+const ServiceSlider = () => {
   return (
     <OwlCarousel
       className="owl-theme pt-16 md:pt-24"
@@ -33,11 +33,11 @@ const Slider = () => {
       autoplay
       responsive={responsive}
     >
-      {[1, 2, 3, 4, 1, 2, 3, 4].map((item, i) => (
-        <CarouselCard key={i} image={`carousel/image-${item}`} />
+      {[1, 2, 3, 1, 2, 3].map((item, i) => (
+        <CarouselCard key={i} image={`pages/about/image-${item}`} />
       ))}
     </OwlCarousel>
   );
 };
 
-export default Slider;
+export default ServiceSlider;

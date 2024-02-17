@@ -6,6 +6,8 @@ import Checkup from "./checkup";
 import Emergency from "./emergency";
 import Testimonials from "./testimonials";
 import Footer from "./footer";
+import Services from "./services";
+import PageBreadCrumb from "./page-breadcumb";
 
 export {
   BottomHeader,
@@ -16,4 +18,6 @@ export {
   Emergency,
   Testimonials,
   Footer,
+  Services,
+  PageBreadCrumb,
 }

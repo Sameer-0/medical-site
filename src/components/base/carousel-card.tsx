@@ -1,14 +1,14 @@
 import Image from "next/image"
 
 const CarouselCard = ({
-  index
+  image
 }: {
-  index: number
+  image: string
 }) => {
   return (
     <div className="p-8 min-h-64 text-center">
       <Image 
-        src={`/images/carousel/image-${index}.webp`}
+        src={`/images/${image}.webp`}
         alt="Carousel Card Image"
         width={60}
         height={60}
