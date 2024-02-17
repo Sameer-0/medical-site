@@ -71,8 +71,9 @@ const Testimonials = () => {
                     <blockquote className="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12">
                       <div>
                         <div className="flex gap-0.5 text-primary">
-                          {[1, 2, 3, 4, 5].map((item) => (
+                          {[1, 2, 3, 4, 5].map((i) => (
                             <svg
+                              key={i}
                               className="h-5 w-5"
                               fill="currentColor"
                               viewBox="0 0 20 20"
