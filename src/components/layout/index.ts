@@ -8,7 +8,7 @@ import Testimonials from "./testimonials";
 import Footer from "./footer";
 import Services from "./services";
 import PageBreadCrumb from "./page-breadcumb";
-
+import { SidebarDrawer } from "./responsive-sidebar";
 export {
   BottomHeader,
   TopHeader,
@@ -20,4 +20,5 @@ export {
   Footer,
   Services,
   PageBreadCrumb,
+  SidebarDrawer,
 }

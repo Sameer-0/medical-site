@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
       <Separator className="bg-slate-200 h-[2px]" />
-      <footer>
+      <footer className="bg-[#3A1842] text-custom-foreground">
         <div className="px-6 md:px-16 grid gap-5 sm:grid-cols-2 grid-cols-1 md:grid-cols-3 py-8 md:py-20">
           <div className="col-span-full sm:col-span-2 md:col-span-1">
             <h3 className="text-2xl md:text-3xl font-semibold text-center md:text-left pb-5">
@@ -19,30 +19,30 @@ const Footer = () => {
               <MapPin className="w-5 h-7 text-primary" />
               <div>
                 <h5 className="font-semibold">Our Location</h5>
-                <p className="text-muted">707 23rd Street, Galveston, TX</p>
+                <p>707 23rd Street, Galveston, TX</p>
               </div>
             </div>
             <div className="w-fit flex gap-x-3 justify-center">
               <Mails className="w-5 h-7 text-primary" />
               <div>
                 <h5 className="font-semibold">How Can We Help?</h5>
-                <p className="text-muted">nfo.Mivaan@gmail.com</p>
+                <p>info.Mivaan@gmail.com</p>
               </div>
             </div>
           </div>
         </div>
         <Separator className="bg-slate-200 h-[2px]" />
-        <div className="px-6 md:px-16 grid grid-cols-3 py-10 gap-y-4">
-          <div className="col-span-1">
+        <div className="px-3 sm:px-6 md:px-16 grid grid-cols-3 md:grid-cols-4 py-10 gap-y-4">
+          <div className="col-span-1 bg-white w-fit p-2 rounded-lg">
             <Image
               src="/images/logo.webp"
               alt="Logo"
-              width={100}
-              height={100}
-              className="mx-auto md:m-0"
+              width={120}
+              height={120}
+              className="mx-auto md:m-0 "
             />
           </div>
-          <div className="text-center col-span-2 md:col-span-1">
+          <div className="pl-2 text-center col-span-2 md:col-span-2 text-sm md:text-base">
             © 2024-2025 Galveston Specialty Pharmacy <br /> All Rights Reserved
           </div>
           <div className="col-span-full md:col-span-1 flex justify-center md:justify-end gap-x-2">
