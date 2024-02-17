@@ -2,32 +2,286 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    /* Name: custom color palette
+       Author: Ilias Ism
+       URL: https://gradient.page */
+
+    /* CSS: .bg-gradient { background: var(--gradient) } */
+    --gradient: linear-gradient(
+      to top left,
+      hsl(216, 100%, 68%),
+      #b8dcff,
+      #6bbbff
+    );
+
+    --background: white;
+    --foreground: 229 10% 98.4%;
+
+    --muted: 229 50% 20.400000000000002%;
+    --muted-foreground: 229 10% 56.8%;
+
+    --popover: 229 45% 8.84%;
+    --popover-foreground: 229 10% 98.4%;
+
+    --card: 229 45% 8.84%;
+    --card-foreground: 229 10% 98.4%;
+
+    --border: 229 50% 20.400000000000002%;
+    --input: 229 50% 20.400000000000002%;
+
+    --primary: 229 100% 68%;
+    --primary-foreground: 229 10% 6.800000000000001%;
+
+    --secondary: 229 50% 20.400000000000002%;
+    --secondary-foreground: 229 10% 98.4%;
+
+    --accent: 229 50% 20.400000000000002%;
+    --accent-foreground: 229 10% 98.4%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 229 10% 98.4%;
+
+    --custom: 29.7 85.47% 54.12%;
+    --custom-foreground: 229 10% 98.4%;
+
+    --ring: 229 100% 68%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Name: custom color palette
+       Author: Ilias Ism
+       URL: https://gradient.page */
+
+    /* CSS: .bg-gradient { background: var(--gradient) } */
+    --gradient: linear-gradient(to top left, #5d9fff, #b8dcff, #6bbbff);
+
+    --background: 255 65% 5.44%;
+    --foreground: 229 10% 98.4%;
+
+    --muted: 229 50% 20.400000000000002%;
+    --muted-foreground: 229 10% 56.8%;
+
+    --popover: 229 45% 8.84%;
+    --popover-foreground: 229 10% 98.4%;
+
+    --card: 229 45% 8.84%;
+    --card-foreground: 229 10% 98.4%;
+
+    --border: 229 50% 20.400000000000002%;
+    --input: 229 50% 20.400000000000002%;
+
+    --primary: 229 100% 68%;
+    --primary-foreground: 229 10% 6.800000000000001%;
+
+    --secondary: 229 50% 20.400000000000002%;
+    --secondary-foreground: 229 10% 98.4%;
+
+    --accent: 229 50% 20.400000000000002%;
+    --accent-foreground: 229 10% 98.4%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 229 10% 98.4%;
+
+    --custom: 29.7 85.47% 54.12%;
+    --custom-foreground: 229 10% 98.4%;
+
+    --ring: 229 100% 68%;
+    --radius: 0.5rem;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@layer base {
+  * {
+    @apply border-border m-0 p-0;
+  }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.water {
+  width: 300px;
+  height: 300px;
+  background-color: skyblue;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: inset 0 0 30px 0 rgba(0, 0, 0, 0.5),
+    0 4px 10px 0 rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.water:before,
+.water:after {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: -150px;
+  background-color: #fff;
+}
+
+.water:before {
+  border-radius: 45%;
+  background: rgba(255, 255, 255, 0.7);
+  animation: wave 5s linear infinite;
+}
+
+.water:after {
+  border-radius: 35%;
+  background: rgba(255, 255, 255, 0.3);
+  animation: wave 5s linear infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0);
   }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  25% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  75% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+}
+
+.animate-heartbeat {
+  animation: heartbeat 5s infinite;
+}
+
+/*
+ * #-Button
+*/
+.animated-button {
+  height: 62px;
+  display: inline-flex;
+  align-items: center;
+  background: #fff;
+  justify-content: center;
+  border-radius: 40px;
+  position: relative;
+  padding: 0px 32px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: hsl(var(--primary));
+  z-index: 1;
+  padding-right: 2px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.animated-button i {
+  margin-left: 23px;
+  width: 58px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(var(--primary));
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.animated-button.black i {
+  background: #000;
+}
+
+.animated-button:after {
+  content: "";
+  clear: both;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: -100%;
+  background: hsl(var(--primary));
+  z-index: -1;
+  border-radius: 40px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.animated-button:hover:after {
+  left: 0px;
+}
+.animated-button:hover {
+  color: #fff;
+}
+.animated-button:hover i {
+  color: hsl(var(--primary));
+  background: #fff;
+}
+
+.custom-icon {
+  width: 60px;
+  height: 60px;
+  display: inline-flex !important;
+  justify-content: center;
+  align-items: center;
+  background: hsl(var(--primary));
+  color: #fff;
+  border-radius: 50%;
+  font-size: 16px;
+}
+
+.owl-dot.active span{
+  background: hsl(var(--primary)) !important;
+}
+
+.owl-dot:hover span{
+  background: hsl(var(--primary)) !important;
+}
+
+.img-bg-cicle::after {
+  content: "";
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  background: rgba(110, 158, 250, 0.2);
+  left: -7px;
+  top: -10px;
+  border-radius: 50%;
+}
+
+.custom-li {
+  display: block;
+  padding-left: 23px;
+  line-height: 36px;
+  color: hsl(var(--muted));
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.custom-li::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 14px;
+  width: 4px;
+  height: 12px;
+  border-radius: 3px;
+  background: hsl(var(--primary));
 }
