@@ -20,7 +20,7 @@ const ContactPage = () => {
             <div className="px-5 text-center pt-2">
               <h4 className="text-primary/60">Contact Phone</h4>
               <h3 className="font-semibold text-xl pt-3">409-877-7029</h3>
-              <p className="text-muted pt-1">Nunc dolor mauris, hendrerit sit amet felis in, interdum rhoncus.</p>
+              <p className="text-muted pt-1">At Galveston Specialty Pharmacy, we pride ourselves on offering personalized pharmacy care that prioritizes the individual needs and preferences of each patient.</p>
             </div>
         </div>
         <div className="px-6 sm:px-40 md:px-0">
@@ -35,7 +35,7 @@ const ContactPage = () => {
             <div className="px-5 text-center pt-2">
               <h4 className="text-primary/60">Contact Email</h4>
               <h3 className="font-semibold text-xl pt-3">info.Mivaan@gmail.com</h3>
-              <p className="text-muted pt-1">Nunc dolor mauris, hendrerit sit amet felis in, interdum rhoncus.</p>
+              <p className="text-muted pt-1"> <p className="text-muted pt-1">At Galveston Specialty Pharmacy, we pride ourselves on offering personalized pharmacy care that prioritizes the individual needs and preferences of each patient. </p></p>
             </div>
         </div>
         <div className="px-6 sm:px-40 md:px-0">
@@ -50,7 +50,7 @@ const ContactPage = () => {
             <div className="px-5 text-center pt-2">
               <h4 className="text-primary/60">Our Location</h4>
               <h3 className="font-semibold text-xl pt-3">707 23rd Street, Galveston,TX</h3>
-              <p className="text-muted pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p className="text-muted pt-1">From medication counseling to adherence monitoring, we strive to empower our patients to make informed decisions about their health and well-being.</p>
             </div>
         </div>
       </div>
