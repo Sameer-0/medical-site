@@ -7,10 +7,10 @@ const AboutContainer = () => {
       <div className="grid grid-cols-12 gap-6">
         <div className="col-span-12 lg:col-span-5 flex justify-center items-center">
           <Image
-            src="/images/pages/landing/about-image.webp"
+            src="/images/pages/landing/about.jpg"
             alt="About image"
-            width={450}
-            height={500}
+            width={600}
+            height={700}
             className="flex-none"
           />
         </div>
@@ -20,17 +20,14 @@ const AboutContainer = () => {
             We Are Best Treatment For our Hospital.
           </h1>
           <p className="text-muted pt-5 leading-7">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-            delectus beatae? Nemo eaque consequatur quibusdam minus ut earum
-            laudantium sed totam quod nostrum illo repellat, perspiciatis et
-            consectetur iste corrupti.
+          At Galveston Specialty Pharmacy, delivering excellent customer service to all patients is at the core of everything we do. We believe that every individual who walks through our doors deserves to be treated with kindness, respect, and compassion. From the moment you step into our pharmacy, you will experience a welcoming and supportive atmosphere where your needs are our top priority. Our dedicated team of pharmacists and staff members are committed to providing personalized care and attention to ensure that every patient receives the highest level of service possible.
           </p>
           <p className="text-muted pt-3 leading-7">
-            Sapiente dolores quisquam earum, quos eos magni obcaecati incidunt,
-            quod veritatis at saepe accusantium dolorum ad, quam illo explicabo
-            reiciendis? Nam cupiditate reiciendis reprehenderit vitae similique
-            porro sequi illo pariatur?
+          When it comes to serving patients affected by HIV, we go above and beyond to meet their specific needs. Our pharmacy offers comprehensive medication counseling and adherence support tailored to each individual's treatment plan. We understand the importance of medication adherence in managing HIV effectively, and we work closely with patients to address any questions or concerns they may have, empowering them to take control of their health and well-being
           </p>
+          <p className="text-muted pt-3 leading-7">
+          <p className="text-muted pt-3 leading-7">
+          In addition to our personalized services, we also strive to be a trusted source of information and advocacy for the HIV community. We actively collaborate with healthcare providers and community organizations to raise awareness, reduce stigma, and promote access to essential resources and support services. At our pharmacy, we believe that everyone deserves access to high-quality healthcare, and we are committed to being a steadfast ally and partner to those affected by HIV.          </p>          </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 sm:gap-5 pt-8 px-8 sm:px-2">
             <div>
               <div className="flex gap-x-5">
@@ -48,8 +45,7 @@ const AboutContainer = () => {
                 </div>
               </div>
               <div className="text-muted leading-7 pt-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa fugiat necessitatibus rem eius.
-              </div>
+              At Galveston Specialty Pharmacy, our mission is to redefine the standard of care for patients with complex medical needs by delivering unparalleled expertise, compassion, and support.               </div>
             </div>
             <div>
             <div className="flex gap-x-5">
@@ -67,8 +63,7 @@ const AboutContainer = () => {
                 </div>
               </div>
               <div className="text-muted leading-7 pt-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa fugiat necessitatibus rem eius.
-              </div>
+              Our vision at Galveston Specialty Pharmacy is to be the cornerstone of health and wellness in our community. We envision a future where every individual has convenient access to quality pharmaceutical care, personalized services, and essential health products. Our goal is to create a welcoming and supportive environment where customers feel empowered to prioritize their well-being and lead healthier lives.              </div>
             </div>
           </div>
 

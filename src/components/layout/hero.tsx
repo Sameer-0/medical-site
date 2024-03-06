@@ -8,15 +8,15 @@ const Hero = () => {
       <div className="container px-4 md:pt-20 grid grid-cols-1 md:grid-cols-2 h-full">
         <div className="col-span-1 pt-12 md:pl-10 text-center md:text-left">
           <h3 className="text-lg md:text-2xl text-custom">
-            Hi, It’s our Glenic
+          Personalized care at <b> Galveston Specialty Pharmacy</b>
           </h3>
           <AnimateText 
             x={-300}
             type="linear"
             duration={0.5}
           >
-            <h1 className="text-4xl md:text-6xl font-semibold font-halyard">
-              Make Your Appointment With Our Consultants.
+            <h1 className="text-4xl md:text-5xl font-semibold font-halyard">
+            Your illness does not define you. Your strength and courage do."
             </h1>
           </AnimateText>
           <AnimateText
@@ -25,9 +25,7 @@ const Hero = () => {
             duration={0.5}
             className="pt-5 text-muted leading-7"
           >
-            Transform Your Vision into Reality: Consult with Our Experts to
-            Develop Strategic Plans and Achieve Success. Schedule Your
-            Appointment Now for Personalized Solutions and Support!
+            At Galveston Specialty Pharmacy, we are committed to providing personalized HIV care that addresses the specific needs of each individual living with HIV. Our team of experienced pharmacists specializes in HIV management and offers tailored medication regimens, adherence support, and counseling services to optimize treatment outcomes. We understand the importance of comprehensive care and strive to empower our patients to lead healthy and fulfilling lives while managing their HIV diagnosis.
           </AnimateText>
           <div className="py-8">
             <Link  href="/contact" className="animated-button">
@@ -38,7 +36,7 @@ const Hero = () => {
         </div>
         <div className="col-span-1 flex justify-center">
           <div className="relative w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] md:w-[380px] md:h-[380px]">
-            <Image src="/images/pages/landing/hero.webp" alt="Hero" fill />
+            <Image src="/images/pages/landing/home4.png" alt="Hero" fill />
           </div>
         </div>
       </div>
