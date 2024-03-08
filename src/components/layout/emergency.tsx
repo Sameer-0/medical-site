@@ -4,12 +4,12 @@ import Link from "next/link";
 const Emergency = () => {
   return (
     <div className="mt-20 grid gap-y-10 grid-cols-1 md:grid-cols-5">
-      <div className="relative h-full min-h-[350px] max-h-[450px] col-span-2">
+      <div className="relative h-full min-h-[350px] max-h-[450px] col-span-2 border-blue-200">
         <Image
-          src="/images/pages/landing/helpline.webp"
+          src="/images/pages/landing/studio.jpg"
           alt="Emergency"
           fill
-          className="px-10 sm:px-20 md:px-5 lg:px-16"
+          className="px-10 sm:px-20 md:px-5 lg:px-16 rounded-lg"
         />
       </div>
       <div className="px-5 sm:px-10 col-span-3">
@@ -18,10 +18,7 @@ const Emergency = () => {
         </h2>
         <h1 className="text-2xl md:text-5xl font-semibold pt-2 md:pt-5">Need Emergency Contact.</h1>
         <p className="text-muted pt-5">
-          Fusce eu eros nec felis venenatis fermentum sit amet eget turpis.
-          Integer tempus massa ac arcu sollicitudin sollicitudin Vivamus neque
-          urna, iaculis et orci id, euismod tempor arcu semper congue nulla amet
-          finibus.
+        Our pharmacy is committed to your health and well-being every hour of every day. Our doors never close, and our dedicated team is always on hand to fill your prescriptions, offer advice, and provide the care you deserve, 24/7. Your health is our priority, and we're here to support you at any time.
         </p>
         <ul className="pt-5">
           <li className="custom-li md:text-[24px]">24/7 Contact Our Hospital.</li>
@@ -42,7 +39,7 @@ const Emergency = () => {
             <div>
               <h5 className="text-[14px] m-0">Phone Number</h5>
               <Link
-                href="tel:4098777029"
+                href="tel:409-877-7029 "
                 className="text-xs transition-all duration-300 hover:text-primary"
               >
                 Call Me 409-877-7029
