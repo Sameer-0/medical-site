@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="bg-[url(/images/hero-bg.webp)] min-h-screen bg-cover relative">
+    <div className="bg-[url(/images/hero-bg.webp)] min-h-full bg-cover relative md:pb-10">
       <div className="container px-4 md:pt-20 grid grid-cols-1 md:grid-cols-2 h-full">
         <div className="col-span-1 pt-12 md:pl-10 text-center md:text-left">
           <h3 className="text-lg md:text-2xl text-custom">
@@ -16,7 +16,7 @@ const Hero = () => {
             duration={0.5}
           >
             <h1 className="text-4xl md:text-5xl font-semibold font-halyard">
-            Your illness does not define you. Your strength and courage do."
+            Your illness does not define you. Your strength and courage do.
             </h1>
           </AnimateText>
           <AnimateText
