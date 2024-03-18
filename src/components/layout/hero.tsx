@@ -45,7 +45,7 @@ const Hero = () => {
         alt="Bulb"
         width={35}
         height={35}
-        className="absolute top-[15%] sm:top-16 md:top-24 md:right-2/3 animate-spin-slow"
+        className="absolute top-[15%] sm:top-16 md:top-14 md:right-2/3 animate-spin-slow"
       />
       <Image
         src="/images/pages/landing/pulse-circle.webp"
