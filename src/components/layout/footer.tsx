@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <Separator className="bg-slate-200 h-[2px]" />
       <footer className="bg-[#E8A647] text-white">
-        <div className="px-6 md:px-16 grid gap-5 sm:grid-cols-2 grid-cols-1 md:grid-cols-3 py-8 md:py-20">
+        <div className="px-2 md:px-16 grid gap-5 sm:grid-cols-2 grid-cols-1 md:grid-cols-3 py-4 md:py-4">
           <div className="col-span-full sm:col-span-2 md:col-span-1">
             <h3 className="text-2xl md:text-3xl font-semibold text-center md:text-left pb-5">
               Please feel free to get in touch with us
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
         <Separator className="bg-slate-200 h-[2px]" />
-        <div className="px-3 sm:px-6 md:px-16 grid grid-cols-3 md:grid-cols-4 py-10 gap-y-4">
+        <div className="px-2 sm:px-6 md:px-16 grid grid-cols-3 md:grid-cols-4 py-8 gap-y-4">
           <div className="col-span-1 bg-white w-fit p-2 rounded-lg">
             <Image
               src="/images/logo.webp"
