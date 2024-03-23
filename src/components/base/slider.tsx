@@ -33,8 +33,29 @@ const Slider = () => {
       autoplay
       responsive={responsive}
     >
-      {[1, 2, 3, 4, 1, 2, 3, 4].map((item, i) => (
-        <CarouselCard key={i} image={`carousel/image-${item}`} />
+      {[
+  {
+    "image" : 1,
+    "headerText" : "AIDS",
+    "bodyText" : "Human immunodeficiency virus"
+  },
+  {
+    "image" : 2,
+    "headerText" : "AIDS",
+    "bodyText" : "HIV Care Continuum"
+  },
+  {
+    "image" : 3,
+    "headerText" : "PrEP",
+    "bodyText" : "pre-exposure prophylaxis"
+  },
+  {
+    "image" : 4,
+    "headerText" : "PEP",
+    "bodyText" : "Post-Exposure Prophylaxis"
+  }
+].map((item, i) => (
+        <CarouselCard key={i} image={`carousel/image-${item.image}`} headerText={item.headerText} bodyText={item.bodyText} />
       ))}
     </OwlCarousel>
   );
