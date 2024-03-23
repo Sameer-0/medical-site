@@ -27,12 +27,12 @@ const Hero = () => {
           >
             At Galveston Specialty Pharmacy, we are committed to providing personalized HIV care that addresses the specific needs of each individual living with HIV. Our team of experienced pharmacists specializes in HIV management and offers tailored medication regimens, adherence support, and counseling services to optimize treatment outcomes. We understand the importance of comprehensive care and strive to empower our patients to lead healthy and fulfilling lives while managing their HIV diagnosis.
           </AnimateText>
-          <div className="py-8">
+          {/* <div className="py-8">
             <Link  href="/contact" className="animated-button">
               Get Appointment
               <i aria-hidden className="fa-solid fa-arrow-right"></i>
             </Link>
-          </div>
+          </div> */}
         </div>
         <div className="col-span-1 flex justify-center">
           <div className="relative w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] md:w-[380px] md:h-[380px]">

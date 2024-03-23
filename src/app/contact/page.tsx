@@ -34,7 +34,7 @@ const ContactPage = () => {
           </div>
             <div className="px-5 text-center pt-2">
               <h4 className="text-primary/60">Contact Email</h4>
-              <h3 className="font-semibold text-xl pt-3">info.Mivaan@gmail.com</h3>
+              <h3 className="font-semibold text-xl pt-3">galvestonesrx@gmail.com</h3>
               <p className="text-muted pt-1"> <p className="text-muted pt-1">At Galveston Specialty Pharmacy, we pride ourselves on offering personalized pharmacy care that prioritizes the individual needs and preferences of each patient. </p></p>
             </div>
         </div>

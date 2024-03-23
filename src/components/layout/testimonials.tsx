@@ -14,9 +14,7 @@ const Testimonials = () => {
               </h2>
 
               <p className="mt-4 text-muted">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Voluptas veritatis illo placeat harum porro optio fugit a culpa
-                sunt id!
+                Google Review's
               </p>
 
               <div className="hidden lg:mt-8 lg:flex lg:gap-4">
@@ -65,8 +63,7 @@ const Testimonials = () => {
             </div>
             <div className="-mx-6 lg:col-span-2 lg:mx-0">
               <div id="keen-slider" className="keen-slider">
-                {[1, 2, 3].map((item) => (
-                  <div key={item} className="keen-slider__slide">
+                  <div className="keen-slider__slide">
                     <blockquote className="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12">
                       <div>
                         <div className="flex gap-0.5 text-primary">
@@ -85,25 +82,89 @@ const Testimonials = () => {
 
                         <div className="mt-4">
                           <p className="text-2xl font-bold text-custom sm:text-3xl">
-                            Stayin' Alive
+                            Great pharmacy.
                           </p>
 
                           <p className="mt-4 leading-relaxed text-gray-700">
-                            No, Rose, they are not breathing. And they have no
-                            arms or legs … Where are they? You know what? If we
-                            come across somebody with no arms or legs, do we
-                            bother resuscitating them? I mean, what quality of
-                            life do we have there?
+                          Friendly informative staff is always quick to get my prescription filled and stay in communication with me along the way
                           </p>
                         </div>
                       </div>
 
                       <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
-                        &mdash; Michael Scott
+                        &mdash; J.D. Andros II
                       </footer>
                     </blockquote>
                   </div>
-                ))}
+
+                  <div className="keen-slider__slide">
+                    <blockquote className="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12">
+                      <div>
+                        <div className="flex gap-0.5 text-primary">
+                          {[1, 2, 3, 4, 5].map((i) => (
+                            <svg
+                              key={i}
+                              className="h-5 w-5"
+                              fill="currentColor"
+                              viewBox="0 0 20 20"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                          ))}
+                        </div>
+
+                        <div className="mt-4">
+                          <p className="text-2xl font-bold text-custom sm:text-3xl">
+                          Super friendly
+                          </p>
+
+                          <p className="mt-4 leading-relaxed text-gray-700">
+                          Fast, Super friendly and most important NO long lines like those chain Pharmacys where you stand for Hours to get meds.
+                          </p>
+                        </div>
+                      </div>
+
+                      <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
+                        &mdash; Josh Rios
+                      </footer>
+                    </blockquote>
+                  </div>
+
+                  <div className="keen-slider__slide">
+                    <blockquote className="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12">
+                      <div>
+                        <div className="flex gap-0.5 text-primary">
+                          {[1, 2, 3, 4, 5].map((i) => (
+                            <svg
+                              key={i}
+                              className="h-5 w-5"
+                              fill="currentColor"
+                              viewBox="0 0 20 20"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                          ))}
+                        </div>
+
+                        <div className="mt-4">
+                          <p className="text-2xl font-bold text-custom sm:text-3xl">
+                          Best pharmacies on the island
+                          </p>
+
+                          <p className="mt-4 leading-relaxed text-gray-700">
+                          Absolutely One of the best pharmacies on the island. Professional, knowledgeable, and dedicated. The young lady in the front I believe her name is  “Fran” she’s such a Gem!!!
+                          </p>
+                        </div>
+                      </div>
+
+                      <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
+                        &mdash; Yada Ross Director
+                      </footer>
+                    </blockquote>
+                  </div>
+
               </div>
             </div>
           </div>
