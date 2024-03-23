@@ -23,7 +23,7 @@ const ServicePage = () => {
 
           <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 ">
             <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
-              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/microscopepharma.jpg" alt="" />
+              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/hiv.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <a href="#" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
@@ -40,7 +40,7 @@ const ServicePage = () => {
             </div>
 
             <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
-              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/microscopepharma.jpg" alt="" />
+              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/hiv1.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <a href="#" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
@@ -91,7 +91,7 @@ const ServicePage = () => {
 
           <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2">
             <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
-              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/microscopepharma.jpg" alt="" />
+              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/prep1.png" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <a href="#" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
