@@ -14,10 +14,10 @@ const TopHeader = () => {
         </Link>
         &nbsp;&nbsp;/&nbsp;&nbsp;
         <Link
-          href="mailto:sameershaikhx123@gmail.com"
+          href="mailto:galvestonesrx@gmail.com"
           className="transition-all duration-300 hover:text-primary"
         >
-          info.Mivaan@gmail.com
+          galvestonesrx@gmail.com
         </Link>
       </div>
       <div className="flex gap-x-6 items-center">

@@ -21,7 +21,7 @@ const Emergency = () => {
         Our pharmacy is committed to your health and well-being every hour of every day. Our doors never close, and our dedicated team is always on hand to fill your prescriptions, offer advice, and provide the care you deserve, 24/7. Your health is our priority, and we're here to support you at any time.
         </p>
         <ul className="pt-5">
-          <li className="custom-li md:text-[24px]">24/7 Contact Our Hospital.</li>
+          <li className="custom-li md:text-[24px]">Monday-Friday 9am to 5pm</li>
           <li className="custom-li md:text-[24px]">Emergency Contact Our Phone Number.</li>
         </ul>
         <div className="flex flex-col sm:flex-row gap-y-5 gap-x-5 lg:gap-x-20 pt-4 md:pt-8 lg:px-12">
@@ -39,10 +39,10 @@ const Emergency = () => {
             <div>
               <h5 className="text-[14px] m-0">Phone Number</h5>
               <Link
-                href="tel:409-877-7029 "
+                href="tel:409 877 7029"
                 className="text-xs transition-all duration-300 hover:text-primary"
               >
-                Call Me 409-877-7029
+                Call Me 409 877 7029
               </Link>
             </div>
           </div>
@@ -60,10 +60,10 @@ const Emergency = () => {
             <div>
               <h5 className="text-[14px] m-0">Quick You Email!</h5>
               <Link
-                href="mailto:sameershaikhx123@gmail.com"
+                href="mailto:galvestonesrx@gmail.com"
                 className="text-xs transition-all duration-300 hover:text-primary"
               >
-                Help.info@gmail.com
+                galvestonesrx@gmail.com
               </Link>
             </div>
           </div>

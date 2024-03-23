@@ -7,10 +7,10 @@ const AboutContainer = () => {
       <div className="grid grid-cols-12 gap-6">
         <div className="col-span-12 lg:col-span-5 flex justify-center items-center">
           <Image
-            src="/images/pages/landing/about.jpg"
+            src="/images/pages/landing/collage1.jpg"
             alt="About image"
             width={600}
-            height={700}
+            height={1000}
             className="flex-none"
           />
         </div>

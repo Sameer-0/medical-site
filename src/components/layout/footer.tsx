@@ -26,7 +26,7 @@ const Footer = () => {
               <Mails className="w-5 h-7 text-primary" />
               <div>
                 <h5 className="font-semibold">How Can We Help?</h5>
-                <p>info.Mivaan@gmail.com</p>
+                <p>galvestonesrx@gmail.com</p>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ const Footer = () => {
         <div className="px-2 sm:px-6 md:px-16 grid grid-cols-3 md:grid-cols-4 py-8 gap-y-4">
           <div className="col-span-1 bg-white w-fit p-2 rounded-lg">
             <Image
-              src="/images/logo.webp"
+              src="/images/logonbg.webp"
               alt="Logo"
               width={120}
               height={120}
