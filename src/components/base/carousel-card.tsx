@@ -18,10 +18,10 @@ const CarouselCard = ({
       />
       <div>
         <h1 className="text-2xl font-semibold text-muted pt-3">
-          ${headerText}
+          {headerText}
         </h1>
         <p className="text-sm text-muted pt-3">
-          ${bodyText}
+          {bodyText}
         </p>
       </div>
     </div>
