@@ -10,7 +10,7 @@ const PageBreadCrumb = ({
   label: string;
 }) => {
   return (
-    <div className="bg-[url(/images/pages/breadcrumb.webp)] bg-cover text-center md:px-40 py-20 md:py-32">
+    <div className="bg-[url(/images/pages/breadcrumb.webp)] bg-cover text-center md:px-40 py-10 md:py-20">
       <h1 className="text-5xl lg:text-6xl font-semibold pb-2">{heading}</h1>
       <ul className="flex justify-center items-center gap-x-1">
         <li className="hover:text-primary transition-all duration-300">

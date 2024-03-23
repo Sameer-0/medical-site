@@ -24,6 +24,29 @@ const responsive = {
     margin: 30,
   },
 };
+
+let obj =[
+  {
+    "image" : 1,
+    "headerText" : "AIDS",
+    "bodyText" : "AIDS Body"
+  },
+  {
+    "image" : 2,
+    "headerText" : "AIDS",
+    "bodyText" : "AIDS Body"
+  },
+  {
+    "image" : 3,
+    "headerText" : "AIDS",
+    "bodyText" : "AIDS Body"
+  },
+  {
+    "image" : 4,
+    "headerText" : "AIDS",
+    "bodyText" : "AIDS Body"
+  }
+]
 const ServiceSlider = () => {
   return (
     <OwlCarousel
@@ -33,8 +56,8 @@ const ServiceSlider = () => {
       autoplay
       responsive={responsive}
     >
-      {[1, 2, 3, 1, 2, 3].map((item, i) => (
-        <CarouselCard key={i} image={`pages/about/image-${item}`} />
+      {obj.map((item, i) => (
+        <CarouselCard key={i} image={`pages/about/image-${item.image}`} headerText={item.headerText} bodyText={item.bodyText}/>
       ))}
     </OwlCarousel>
   );

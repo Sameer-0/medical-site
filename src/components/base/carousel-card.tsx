@@ -1,9 +1,11 @@
 import Image from "next/image"
 
 const CarouselCard = ({
-  image
+  image, headerText, bodyText
 }: {
-  image: string
+  image: string,
+  headerText: string,
+  bodyText: string
 }) => {
   return (
     <div className="p-8 min-h-64 text-center">
@@ -16,10 +18,10 @@ const CarouselCard = ({
       />
       <div>
         <h1 className="text-2xl font-semibold text-muted pt-3">
-          Lorem ipsum
+          ${headerText}
         </h1>
         <p className="text-sm text-muted pt-3">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          ${bodyText}
         </p>
       </div>
     </div>
