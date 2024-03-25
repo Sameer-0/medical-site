@@ -14,15 +14,15 @@ const Emergency = () => {
       </div>
       <div className="px-5 sm:px-10 col-span-3">
         <h2 className="text-primary text-lg md:text-2xl font-semibold">
-          Emergency Helpline
+          Learn About Our Hours
         </h2>
-        <h1 className="text-2xl md:text-5xl font-semibold pt-2 md:pt-5">Need Emergency Contact.</h1>
+        <h1 className="text-2xl md:text-5xl font-semibold pt-2 md:pt-5">Get in touch with us on :</h1>
         <p className="text-muted pt-5">
-        Our pharmacy is committed to your health and well-being every hour of every day. Our doors never close, and our dedicated team is always on hand to fill your prescriptions, offer advice, and provide the care you deserve, 24/7. Your health is our priority, and we're here to support you at any time.
+        From personalized medication consultations to timely prescription refills and comprehensive health screenings, we prioritize the well-being of our customers above all else. Our commitment to excellence extends beyond the counter; we actively engage with our community, offering educational workshops and wellness programs to empower individuals to lead healthier lives. 
         </p>
         <ul className="pt-5">
-          <li className="custom-li md:text-[24px]">Monday-Friday 9am to 5pm</li>
-          <li className="custom-li md:text-[24px]">Emergency Contact Our Phone Number.</li>
+          <li className="custom-li md:text-[24px]">Monday-Friday </li>
+          <li className="custom-li md:text-[24px]">Time : 9 AM to 5 PM</li>
         </ul>
         <div className="flex flex-col sm:flex-row gap-y-5 gap-x-5 lg:gap-x-20 pt-4 md:pt-8 lg:px-12">
           <div className="flex gap-4">
@@ -42,7 +42,7 @@ const Emergency = () => {
                 href="tel:409 877 7029"
                 className="text-xs transition-all duration-300 hover:text-primary"
               >
-                Call Me 409 877 7029
+                Call Us 409 877 7029
               </Link>
             </div>
           </div>
@@ -60,10 +60,10 @@ const Emergency = () => {
             <div>
               <h5 className="text-[14px] m-0">Quick You Email!</h5>
               <Link
-                href="mailto:galvestonesrx@gmail.com"
+                href="mailto:galvestonsrx@gmail.com"
                 className="text-xs transition-all duration-300 hover:text-primary"
               >
-                galvestonesrx@gmail.com
+                galvestonsrx@gmail.com
               </Link>
             </div>
           </div>

@@ -21,7 +21,7 @@ const Checkup = () => {
           </h1>
           <div className="pt-8">
             <Link href="/contact" className="animated-button">
-              Get Appointment
+              Contact Us
               <i aria-hidden className="fa-solid fa-arrow-right"></i>
             </Link>
           </div>
