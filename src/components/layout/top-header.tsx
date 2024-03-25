@@ -10,18 +10,18 @@ const TopHeader = () => {
           href="tel:4098777029"
           className="transition-all duration-300 hover:text-primary"
         >
-          Call Me 409-877-7029
+          Call Us 409-877-7029
         </Link>
         &nbsp;&nbsp;/&nbsp;&nbsp;
         <Link
-          href="mailto:galvestonesrx@gmail.com"
+          href="mailto:galvestonsrx@gmail.com"
           className="transition-all duration-300 hover:text-primary"
         >
-          galvestonesrx@gmail.com
+          galvestonsrx@gmail.com
         </Link>
       </div>
       <div className="flex gap-x-6 items-center">
-        <div className="flex gap-x-2 pr-12">
+        {/* <div className="flex gap-x-2 pr-12">
           <Link href="#">
             <i
               aria-hidden
@@ -34,7 +34,7 @@ const TopHeader = () => {
               className="w-6 h-6 fa-brands fa-instagram hover:text-rose-600 transition-all duration-500"
             ></i>
           </Link>
-        </div>
+        </div> */}
         <div>
           <Link href="/contact">
             <Button variant="link" className="p-0 group">

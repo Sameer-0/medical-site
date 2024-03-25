@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <Separator className="bg-slate-200 h-[2px]" />
       <footer className="bg-[#E8A647] text-white">
-        <div className="px-2 md:px-16 grid gap-5 sm:grid-cols-2 grid-cols-1 md:grid-cols-3 py-4 md:py-4">
+        {/* <div className="px-2 md:px-16 grid gap-5 sm:grid-cols-2 grid-cols-1 md:grid-cols-3 py-4 md:py-4">
           <div className="col-span-full sm:col-span-2 md:col-span-1">
             <h3 className="text-2xl md:text-3xl font-semibold text-center md:text-left pb-5">
               Please feel free to get in touch with us
@@ -26,11 +26,11 @@ const Footer = () => {
               <Mails className="w-5 h-7 text-primary" />
               <div>
                 <h5 className="font-semibold">How Can We Help?</h5>
-                <p>galvestonesrx@gmail.com</p>
+                <p>galvestonsrx@gmail.com</p>
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <Separator className="bg-slate-200 h-[2px]" />
         <div className="px-2 sm:px-6 md:px-16 grid grid-cols-3 md:grid-cols-4 py-8 gap-y-4">
           <div className="col-span-1 bg-white w-fit p-2 rounded-lg">
@@ -46,7 +46,7 @@ const Footer = () => {
             © 2024-2025 Galveston Specialty Pharmacy <br /> All Rights Reserved
           </div>
           <div className="col-span-full md:col-span-1 flex justify-center md:justify-end gap-x-2">
-            <Link href="#">
+            {/* <Link href="#">
               <i
                 aria-hidden
                 className="w-6 h-6 fa-brands fa-facebook-f hover:text-blue-600 transition-all duration-500"
@@ -63,7 +63,7 @@ const Footer = () => {
                 aria-hidden
                 className="w-6 h-6 fa-brands fa-instagram hover:text-rose-600 transition-all duration-500"
               ></i>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </footer>
