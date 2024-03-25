@@ -34,15 +34,18 @@ const Footer = () => {
         <Separator className="bg-slate-200 h-[2px]" />
         <div className="px-2 sm:px-6 md:px-16 grid grid-cols-3 md:grid-cols-4 py-8 gap-y-4">
           <div className="col-span-1 bg-white w-fit p-2 rounded-lg">
-            <Image
+
+          </div>
+          <div className="pl-2 text-center col-span-2 md:col-span-2 text-sm md:text-base">
+          <Image
               src="/images/logonbg.webp"
               alt="Logo"
               width={120}
               height={120}
-              className="mx-auto md:m-0 "
+              className="items-center"
             />
-          </div>
-          <div className="pl-2 text-center col-span-2 md:col-span-2 text-sm md:text-base">
+            <p className="font-serif">Our Mission is to provide individual focused pharmacy</p>
+            <p className="font-serif">Services, Support and advocacy for out patients and patners</p><br />
             © 2024-2025 Galveston Specialty Pharmacy <br /> All Rights Reserved
           </div>
           <div className="col-span-full md:col-span-1 flex justify-center md:justify-end gap-x-2">
