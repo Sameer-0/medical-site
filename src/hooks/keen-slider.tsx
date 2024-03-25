@@ -11,14 +11,14 @@ const useKeenSlider = () => {
         loop: true,
         slides: {
           origin: "center",
-          perView: 1.25,
+          perView: 2,
           spacing: 16,
         },
         breakpoints: {
           "(min-width: 1024px)": {
             slides: {
               origin: "auto",
-              perView: 1.5,
+              perView: 2,
               spacing: 32,
             },
           },
