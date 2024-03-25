@@ -29,22 +29,22 @@ let obj =[
   {
     "image" : 1,
     "headerText" : "AIDS",
-    "bodyText" : "AIDS Body"
+    "bodyText" : "Human immunodeficiency virus"
   },
   {
     "image" : 2,
     "headerText" : "AIDS",
-    "bodyText" : "AIDS Body"
+    "bodyText" : "HIV Care Continuum"
   },
   {
     "image" : 3,
-    "headerText" : "AIDS",
-    "bodyText" : "AIDS Body"
+    "headerText" : "PrEP",
+    "bodyText" : "pre-exposure prophylaxis"
   },
   {
     "image" : 4,
-    "headerText" : "AIDS",
-    "bodyText" : "AIDS Body"
+    "headerText" : "PEP",
+    "bodyText" : "Post-Exposure Prophylaxis"
   }
 ]
 const ServiceSlider = () => {
@@ -57,7 +57,7 @@ const ServiceSlider = () => {
       responsive={responsive}
     >
       {obj.map((item, i) => (
-        <CarouselCard key={i} image={`pages/about/image-${item.image}`} headerText={item.headerText} bodyText={item.bodyText}/>
+        <CarouselCard key={i} image={`carousel/image-${item.image}`} headerText={item.headerText} bodyText={item.bodyText}/>
       ))}
     </OwlCarousel>
   );

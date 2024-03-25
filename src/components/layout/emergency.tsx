@@ -58,7 +58,7 @@ const Emergency = () => {
               </div>
             </div>
             <div>
-              <h5 className="text-[14px] m-0">Quick You Email!</h5>
+              <h5 className="text-[14px] m-0">Email Us!</h5>
               <Link
                 href="mailto:galvestonsrx@gmail.com"
                 className="text-xs transition-all duration-300 hover:text-primary"
