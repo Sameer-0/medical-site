@@ -25,8 +25,8 @@ const BottomHeader = () => {
         <div className="space-x-1">
           {/* <button title="Search" aria-label="Search" className="px-2 py-2 rounded-full bg-custom">
             <Search className="h-5 w-5 text-white" aria-hidden="true" />
-          </button>
-          <SidebarDrawer /> */}
+          </button> */}
+          <SidebarDrawer />
         </div>
       </nav>
     </header>
