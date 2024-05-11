@@ -49,15 +49,15 @@ const Emergency = () => {
           <div className="flex gap-4">
             <div>
               <div className="bg-primary p-3 rounded-full">
-                <Image
+                {/* <Image
                   src="/images/pages/landing/email.webp"
                   alt="Emergency"
                   width={18}
                   height={18}
-                />
+                /> */}
               </div>
             </div>
-            <div>
+            {/* <div>
               <h5 className="text-[14px] m-0">Email Us!</h5>
               <Link
                 href="mailto:galvestonsrx@gmail.com"
@@ -65,7 +65,7 @@ const Emergency = () => {
               >
                 galvestonsrx@gmail.com
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

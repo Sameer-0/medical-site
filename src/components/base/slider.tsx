@@ -41,8 +41,8 @@ const Slider = () => {
   },
   {
     "image" : 2,
-    "headerText" : "AIDS",
-    "bodyText" : "HIV Care Continuum"
+    "headerText" : "Personalized Care",
+    "bodyText" : "Personalized Pharmacy Care"
   },
   {
     "image" : 3,

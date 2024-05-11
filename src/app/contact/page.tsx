@@ -34,7 +34,7 @@ const ContactPage = () => {
               <p className="text-muted pt-1">At Galveston Specialty Pharmacy, we pride ourselves on offering personalized pharmacy care that prioritizes the individual needs and preferences of each patient.</p>
             </div>
         </div>
-        <div className="px-6 sm:px-40 md:px-0">
+        {/* <div className="px-6 sm:px-40 md:px-0">
         <Link
                 href="mailto:galvestonsrx@gmail.com"
                 className="text-xs transition-all duration-300 hover:text-primary"
@@ -58,7 +58,7 @@ const ContactPage = () => {
               </Link>
               <p className="text-muted pt-1"> <p className="text-muted pt-1">At Galveston Specialty Pharmacy, we pride ourselves on offering personalized pharmacy care that prioritizes the individual needs and preferences of each patient. </p></p>
             </div>
-        </div>
+        </div> */}
         <div className="px-6 sm:px-40 md:px-0">
         <Link
                 href="https://maps.app.goo.gl/Udy3ksmnSeuhWn1q8"
@@ -86,6 +86,53 @@ const ContactPage = () => {
         </div>
       </div>
       <ContactCard />
+
+<div className="container flex flex-row items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
+<h1 className="text-4xl font-bold leading-none text-center sm:text-5xl">Our Sister Pharmacies</h1>
+  <div className="max-w-2xl mx-auto hover:scale-105 transition-all duration-400 hover:bg-gray-200">
+      <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
+          <a href="#">
+              <Image className="rounded-t-lg" src="/images/pages/landing/hitcon.jpg" width={1000} height={1000} alt="bg"/>
+          </a>
+          <div className="p-5">
+              <a href="#">
+                  <h5 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">Hitchcock Hometown Pharmacy</h5>
+              </a>
+              <p className="font-normal text-gray-700 mb-3 dark:text-gray-400">8719 Highway 6 Hitchcock, TX 77563 Phone: 409 209 0847 Fax: 409 209 0947</p>
+          </div>
+      </div>
+  </div>
+
+  <div className="max-w-2xl mx-auto hover:scale-105 transition-all duration-400 hover:bg-gray-200">
+      <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
+          <a href="#">
+              <Image className="rounded-t-lg" src="/images/pages/landing/gs.jpg" width={1000} height={1000} alt="bg"/>
+          </a>
+          <div className="p-5">
+              <a href="#">
+                  <h5 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">Galveston Broadway Drug</h5>
+              </a>
+              <p className="font-normal text-gray-700 mb-3 dark:text-gray-400">2027 Broadway St Galveston, TX 77550 Phone: 409 765 7701 Fax: 409 762 2545</p>
+          </div>
+      </div>
+  </div>
+
+  <div className="max-w-2xl mx-auto hover:scale-105 transition-all duration-400 hover:bg-gray-200">
+      <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
+          <a href="#">
+              <Image className="rounded-t-lg" src="/images/pages/landing/hs.png" width={1000} height={1000} alt="bg"/>
+          </a>
+          <div className="p-5">
+              <a href="#">
+                  <h5 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">Texas Care Pharmacy 4900 Fannin St</h5>
+              </a>
+              <p className="font-normal text-gray-700 mb-3 dark:text-gray-400">Houston, TX 77004 Phone: 832 769 0088 Fax: 832 769 0023</p>
+
+          </div>
+      </div>
+  </div>
+</div>
+      
     </section>
   );
 };

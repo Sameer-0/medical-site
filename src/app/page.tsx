@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <Hero />
       <Slider />
-      <AboutContainer />
+      {/* <AboutContainer /> */}
       <Divider />
       <Checkup />
       <Emergency />
