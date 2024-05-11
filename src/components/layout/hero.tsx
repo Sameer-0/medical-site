@@ -16,7 +16,7 @@ const Hero = () => {
             duration={0.5}
           >
             <h1 className="text-4xl md:text-5xl font-semibold font-halyard">
-            Your illness do not define you, Your strength and courage does.
+            Your illness does not define you, Your strength and courage do.
             </h1>
           </AnimateText>
           <AnimateText

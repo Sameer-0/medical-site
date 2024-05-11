@@ -12,13 +12,13 @@ const TopHeader = () => {
         >
           Call Us 409-877-7029
         </Link>
-        &nbsp;&nbsp;/&nbsp;&nbsp;
+        {/* &nbsp;&nbsp;/&nbsp;&nbsp;
         <Link
           href="mailto:galvestonsrx@gmail.com"
           className="transition-all duration-300 hover:text-primary"
         >
           galvestonsrx@gmail.com
-        </Link>
+        </Link> */}
       </div>
       <div className="flex gap-x-6 items-center">
         {/* <div className="flex gap-x-2 pr-12">
