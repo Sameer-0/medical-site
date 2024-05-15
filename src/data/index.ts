@@ -12,8 +12,18 @@ export const HEADER = [
     path: "/services",
   },
   {
-    label: "Our Team",
-    path: "/team",
+    label: "Team",
+    path: "#",
+    child: [
+      {
+        label: "Our Team",
+        path: "/team",
+      },
+      {
+        label: "Join Us",
+        path: "/team#join-us",
+      },
+    ]
   },
   {
     label: "Contact Us",
