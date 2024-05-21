@@ -6,12 +6,12 @@ const TopHeader = () => {
   return (
     <div className="sm:container flex flex-col gap-3 md:flex-row items-center justify-between text-muted text-[14px] md:text-sm pt-2">
       <div>
-        <Link
+        {/* <Link
           href="tel:4098777029"
           className="transition-all duration-300 hover:text-primary"
         >
           Call Us 409-877-7029
-        </Link>
+        </Link> */}
         {/* &nbsp;&nbsp;/&nbsp;&nbsp;
         <Link
           href="mailto:galvestonsrx@gmail.com"

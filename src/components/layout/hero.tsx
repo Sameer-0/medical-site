@@ -16,7 +16,7 @@ const Hero = () => {
             duration={0.5}
           >
             <h1 className="text-4xl md:text-5xl font-semibold font-halyard">
-            Your illness does not define you, Your strength and courage do.
+            Providing compassionate and customized pharmacy care for individuals facing complex health conditions
             </h1>
           </AnimateText>
           <AnimateText
