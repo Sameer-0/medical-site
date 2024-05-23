@@ -3,8 +3,6 @@ import React from "react";
 import Image from "next/image";
 import { HEADER } from "@/data";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { LayoutGrid, Menu, Search } from "lucide-react";
 import { SidebarDrawer } from ".";
 import { NavigationMenuLink } from "../ui/navigation-menu";
 import { cn } from "@/lib/utils";
@@ -13,12 +11,12 @@ const BottomHeader = () => {
   return (
     <header className="bg-white sticky top-0 left-0 right-0 z-30 container pt-4 pb-1 shadow-md">
       <nav className="flex justify-between items-center pb-4">
-        <Image src="/images/logo.webp" alt="Logo" width={150} height={150} />
+        <Image src="/images/logo.webp" alt="Logo" width={200} height={200} />
         <ul className="hidden md:flex gap-x-7 font-semibold text-gray-700 dark:text-gray-300">
           {HEADER.map((item) => (
             item.child && item.child.length > 1 ? 
-              <li className="flex relative group" key={item.label}>
-              <a href="#" className="mr-1">
+              <li className="!cursor-pointer flex relative group" key={item.label}>
+              <a className="mr-1">
                 {item.label}
               </a>
               <i className="fa-solid fa-chevron-down fa-2xs pt-3"></i>

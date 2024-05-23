@@ -8,7 +8,7 @@ const ContactPage = () => {
   return (
     <section className="pb-20">
       <PageBreadCrumb heading="Contact Us" label="Contact Us" />
-      <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5 md:px-32 py-12 md:py-20">
+      <div className="grid gap-10 grid-cols-1 md:grid-cols-2 px-5 md:px-32 py-12 md:py-20 lg:px-52">
         <div className="px-6 sm:px-40 md:px-0">
           <Link
             href="tel:4098777029"
@@ -38,31 +38,6 @@ const ContactPage = () => {
             </p>
           </div>
         </div>
-        {/* <div className="px-6 sm:px-40 md:px-0">
-        <Link
-                href="mailto:galvestonsrx@gmail.com"
-                className="text-xs transition-all duration-300 hover:text-primary"
-              >
-          <div className="bg-primary/10 w-fit p-5 mx-auto rounded-full">
-            <Image
-              src="/images/pages/landing/email2.webp"
-              alt="email"
-              width={30}
-              height={30}
-            />
-          </div>
-          </Link>
-            <div className="px-5 text-center pt-2">
-              <h4 className="text-primary/60">Contact Email</h4>
-              <Link
-                href="mailto:galvestonsrx@gmail.com"
-                className="text-xs transition-all duration-300 hover:text-primary"
-              >
-              <h3 className="font-semibold text-xl pt-3">galvestonsrx@gmail.com</h3>
-              </Link>
-              <p className="text-muted pt-1"> <p className="text-muted pt-1">At Galveston Specialty Pharmacy, we pride ourselves on offering personalized pharmacy care that prioritizes the individual needs and preferences of each patient. </p></p>
-            </div>
-        </div> */}
         <div className="px-6 sm:px-40 md:px-0">
           <Link
             href="https://maps.app.goo.gl/Udy3ksmnSeuhWn1q8"

@@ -157,11 +157,12 @@ const TeamsContainer = () => {
                     </div>
                 </div>
                 <div className="pt-8">
-                  <Link href="/contact" className="animated-button border-solid ml-5 border-2">
+                  <Link href="/contact" className="animated-button border-slate-200 ml-5 border-2">
                       Join Our Team
                     <i aria-hidden className="fa-solid fa-arrow-right"></i>
                   </Link>
                 </div>
+                <hr className="mt-8 h-[1px] bg-slate-300" />
             </section>
             <JoinUsForm />
         </>
