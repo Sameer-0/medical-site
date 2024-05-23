@@ -114,11 +114,11 @@ const ContactPage = () => {
             </a>
             <div className="p-5">
               <a href="#">
-                <h5 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">
+                <h5 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white text-center">
                   Hitchcock Hometown Pharmacy
                 </h5>
               </a>
-              <p className="font-normal text-gray-700 mb-3 dark:text-gray-400">
+              <p className="font-normal text-gray-700 mb-3 dark:text-gray-400 text-center">
                 8719 Highway 6 Hitchcock, TX 77563 Phone: 409 209 0847 Fax: 409
                 209 0947
               </p>
@@ -139,11 +139,11 @@ const ContactPage = () => {
             </a>
             <div className="p-5">
               <a href="#">
-                <h5 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">
+                <h5 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white text-center">
                   Galveston Broadway Drug
                 </h5>
               </a>
-              <p className="font-normal text-gray-700 mb-3 dark:text-gray-400">
+              <p className="font-normal text-gray-700 mb-3 dark:text-gray-400 text-center" >
                 2027 Broadway St Galveston, TX 77550 Phone: 409 765 7701 Fax:
                 409 762 2545
               </p>
@@ -164,11 +164,11 @@ const ContactPage = () => {
             </a>
             <div className="p-5">
               <a href="#">
-                <h5 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">
+                <h5 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white text-center">
                   Texas Care Pharmacy 4900 Fannin St
                 </h5>
               </a>
-              <p className="font-normal text-gray-700 mb-3 dark:text-gray-400">
+              <p className="font-normal text-gray-700 mb-3 dark:text-gray-400 text-center">
                 Houston, TX 77004 Phone: 832 769 0088 Fax: 832 769 0023
               </p>
             </div>
