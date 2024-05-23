@@ -12,8 +12,8 @@ const CarouselCard = ({
       <Image 
         src={`/images/${image}.webp`}
         alt="Carousel Card Image"
-        width={60}
-        height={60}
+        width={1000}
+        height={1000}
         className="!h-[120px] !w-[120px] mx-auto"
       />
       <div>
