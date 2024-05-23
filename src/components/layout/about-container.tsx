@@ -17,7 +17,7 @@ const AboutContainer = () => {
         <div className="col-span-12 lg:col-span-7">
           <h2 className="text-custom text-lg md:text-2xl">Your Trusted Pharmacy</h2>
           <h1 className="text-3xl lg:text-5xl lg:leading-[60px] font-semibold font-halyard">
-            Your Loacal retail and specialty pharmacy.
+            Your Local retail and specialty pharmacy.
           </h1>
           <p className="text-muted pt-5 leading-7">
           At Galveston Specialty Pharmacy, delivering excellent customer service to all patients is at the core of everything we do. We believe that every individual who walks through our doors deserves to be treated with kindness, respect, and compassion. From the moment you step into our pharmacy, you will experience a welcoming and supportive atmosphere where your needs are our top priority. Our dedicated team of pharmacists and staff members are committed to providing personalized care and attention to ensure that every patient receives the highest level of service possible.

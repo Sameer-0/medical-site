@@ -44,10 +44,10 @@ const Footer = () => {
               height={120}
               className="items-center mx-auto mb-4"
             />
-            <p className="font-serif">
+            <p className="">
               Our Mission is to provide individual focused pharmacy
             </p>
-            <p className="font-serif">
+            <p className="">
               Services, Support and advocacy for out patients and patners
             </p>
             <br />
