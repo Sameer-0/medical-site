@@ -14,12 +14,12 @@ const ServicePage = () => {
       <section className="bg-white dark:bg-gray-900" >
         <div className="container px-6 py-10 mx-auto">
           <div className="text-center ">
-            <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white"><b>HIV</b> - Human immunodeficiency virus</h1>
+            {/* <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white"><b>HIV</b> - Human immunodeficiency virus</h1>
 
             <p className="max-w-lg mx-auto mt-4 text-gray-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis sint autem nesciunt, laudantium
               quia tempore delect
-            </p>
+            </p> */}
           </div>
 
           <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 ">
@@ -57,7 +57,7 @@ const ServicePage = () => {
                   </div>
                 <p className="mt-3 text-sm text-blue-500">21 October 2019</p>
               </div>
-            </div>
+            </div>         
 
             <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
               <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/personalCare.jpg" alt="" />
@@ -82,12 +82,13 @@ const ServicePage = () => {
       <section className="bg-white dark:bg-gray-900">
         <div className="container px-6 py-10 mx-auto">
           <div className="text-center">
-            <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Exposure Prophylaxis</h1>
+            {/* <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Exposure Prophylaxis</h1>
 
             <p className="max-w-lg mx-auto mt-4 text-gray-500">
               <p className="text-muted pt-1 mt-2">PEP (post-exposure prophylaxis) means taking medicine to prevent HIV after a possible exposure. PEP should be used only in emergency situations and must be started within 72 hours after a recent possible exposure to HIV.</p>
-            </p>
+            </p> */}
           </div>
+          
 
           <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2">
             <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
@@ -148,9 +149,63 @@ const ServicePage = () => {
             </div>
           </div>
         </div>
+        <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2">
+
+          <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
+              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/care.jpg" alt="" />
+
+              <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
+                <a href="#" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                  <b>Linkage to Care...</b>
+                </a>
+
+                <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                  <p className="text-muted pt-1 mt-2">At Galveston Specialty Pharmacy, we take pride in bridging the gap to care for patients affected by HIV/AIDS. We offer a vital link to essential healthcare services, including medication management, free medication delivery, and ongoing support. Our dedicated team ensures seamless coordination and access to comprehensive care, empowering patients to navigate their HIV/AIDS journey with confidence and dignity.</p>
+                </p>
+                <div className='flex mt-6 justify-center align-middle gap-20'>
+                    {/* <a className='flex gap-2 cursor-pointer' href='https://www.hiv.gov/federal-response/policies-issues/hiv-aids-care-continuum'>
+                      <Image
+                        src="/images/pages/landing/govhin.webp"
+                        alt="HIV"
+                        width={40}
+                        height={40}
+                      />
+                      <h1 className="pt-2 text-blue-500">HIV Care Continuum</h1>
+                    </a> */}
+                  </div>
+                <p className="mt-3 text-sm text-blue-500">21 October 2019</p>
+              </div>
+            </div>
+
+            <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
+              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/fd.jpg" alt="" />
+
+              <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
+                <a href="#" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                  <b>Free Delevery</b>
+                </a>
+
+                <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                  <p className="text-muted pt-1 mt-2">Enjoy the convenience of free delivery on all your orders! With our free delivery service, you can shop from the comfort of your home without worrying about additional shipping costs. Whether you're purchasing daily essentials, gifts, or luxury items, we'll bring them straight to your doorstep at no extra charge. Experience hassle-free shopping with our fast, reliable, and cost-effective delivery solution.</p>
+                </p>
+                <div className='flex mt-6 justify-center align-middle gap-20'>
+                    {/* <a className='flex gap-2 cursor-pointer' href='https://www.hiv.gov/federal-response/policies-issues/hiv-aids-care-continuum'>
+                      <Image
+                        src="/images/pages/landing/govhin.webp"
+                        alt="HIV"
+                        width={40}
+                        height={40}
+                      />
+                      <h1 className="pt-2 text-blue-500">HIV Care Continuum</h1>
+                    </a> */}
+                  </div>
+                <p className="mt-3 text-sm text-blue-500">21 October 2019</p>
+              </div>
+            </div>
+        </div>
       </section>
 
-      <section className="bg-white dark:bg-gray-900">
+      {/* <section className="bg-white dark:bg-gray-900">
         <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center">
           <h2 className="max-w-2xl mx-auto text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
             Linkage to Care... <span className="text-blue-500">next level.</span>
@@ -169,7 +224,7 @@ const ServicePage = () => {
           </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
 
     </>

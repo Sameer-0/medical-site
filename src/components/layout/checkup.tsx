@@ -15,9 +15,9 @@ const Checkup = () => {
           />
         </div>
         <div className="pt-10 md:py-20 col-span-full md:col-span-8 text-center">
-          <h2 className="text-primary text-lg md:text-2xl">You'll find everything you need here</h2>
+          <h2 className="text-primary text-lg md:text-2xl">You'll find everything you need here...</h2>
           <h1 className="text-2xl md:text-5xl text-white font-semibold">
-            We Provide The Best Pharmacy Services For You And Your Family.
+            Managing HIV can be complex. Getting your prescriptions doesn’t have to be
           </h1>
           <div className="pt-8">
             <Link href="/contact" className="animated-button">

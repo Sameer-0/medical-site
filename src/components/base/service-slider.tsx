@@ -28,7 +28,7 @@ const responsive = {
 let obj =[
   {
     "image" : 1,
-    "headerText" : "AIDS",
+    "headerText" : "HIV Care",
     "bodyText" : "Human immunodeficiency virus"
   },
   {
