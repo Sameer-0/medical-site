@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import JoinUsForm from "./join-us-form";
 
 const TeamsContainer = () => {
     return (
@@ -122,8 +123,6 @@ const TeamsContainer = () => {
                     </div>
                 </div>
             </section>
-
-
             <section className="bg-white dark:bg-gray-900">
                 <div className="container px-6 py-10 mx-auto">
                     <div className="lg:flex lg:items-center lg:justify-between">
@@ -157,16 +156,14 @@ const TeamsContainer = () => {
                         </div>
                     </div>
                 </div>
-          <div className="pt-8">
-            <Link href="/contact" className="animated-button border-solid ml-5 border-2">
-                Join Our Team
-              <i aria-hidden className="fa-solid fa-arrow-right"></i>
-            </Link>
-          </div>
+                <div className="pt-8">
+                  <Link href="/contact" className="animated-button border-solid ml-5 border-2">
+                      Join Our Team
+                    <i aria-hidden className="fa-solid fa-arrow-right"></i>
+                  </Link>
+                </div>
             </section>
-
-
-
+            <JoinUsForm />
         </>
     );
 };

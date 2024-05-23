@@ -2,7 +2,7 @@
 import { FormEvent } from "react";
 import { Input } from "../ui/input";
 
-const ContactForm = () => {
+const JoinUsForm = () => {
   
   function handleFormSubmit(e: FormEvent) {
     e.preventDefault()
@@ -10,11 +10,12 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={handleFormSubmit}
-      className="container px-5 py-24 mx-auto flex pr-20"
+      className="container px-5 py-24 mx-auto flex pr-20 w-[90%] md:w-[700px]"
+      id="join-us"
     >
-      <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+      <div className=" bg-white rounded-lg p-8 flex flex-col w-full mt-10 md:mt-0 relative z-10 shadow-md">
         <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
-          Message Us
+          Join Us
         </h2>
         <div className="relative mb-4">
           <label htmlFor="name" className="leading-7 text-sm text-gray-600">
@@ -41,8 +42,20 @@ const ContactForm = () => {
           />
         </div>
         <div className="relative mb-4">
+          <label htmlFor="resume" className="leading-7 text-sm text-gray-600">
+            Resume
+          </label>
+          <Input
+            type="file"
+            id="resume"
+            name="resume"
+            required
+            className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+          />
+        </div>
+        <div className="relative mb-4">
           <label htmlFor="message" className="leading-7 text-sm text-gray-600">
-            Message
+            Tell us About yourself
           </label>
           <textarea
             id="message"
@@ -52,11 +65,11 @@ const ContactForm = () => {
           ></textarea>
         </div>
         <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-          Send
+          Submit
         </button>
       </div>
     </form>
   );
 };
 
-export default ContactForm;
+export default JoinUsForm;
