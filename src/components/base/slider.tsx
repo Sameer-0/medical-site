@@ -53,6 +53,11 @@ const Slider = () => {
     "image" : 4,
     "headerText" : "PEP",
     "bodyText" : "Post-Exposure Prophylaxis"
+  },
+  {
+    "image" : 5,
+    "headerText" : "Delivery Services",
+    "bodyText" : "Free Delivery"
   }
 ].map((item, i) => (
         <CarouselCard key={i} image={`carousel/image-${item.image}`} headerText={item.headerText} bodyText={item.bodyText} />

@@ -45,6 +45,11 @@ let obj =[
     "image" : 4,
     "headerText" : "PEP",
     "bodyText" : "Post-Exposure Prophylaxis"
+  },
+  {
+    "image" : 5,
+    "headerText" : "Delivery Services",
+    "bodyText" : "Free Delivery"
   }
 ]
 const ServiceSlider = () => {
