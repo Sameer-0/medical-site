@@ -78,16 +78,16 @@ const ContactPage = () => {
         </h1>
         <div className="max-w-2xl mx-auto hover:scale-105 transition-all duration-400 hover:bg-gray-200">
           <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+            <a href="#" className="p-3">
               <Image
                 className="rounded-t-lg"
-                src="/images/pages/landing/hitcon.jpg"
+                src="/images/pages/landing/hhrx.png"
                 width={1000}
                 height={1000}
                 alt="bg"
               />
             </a>
-            <div className="p-5">
+            <div className="p-3">
               <a href="#">
                 <h5 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white text-center">
                   Hitchcock Hometown Pharmacy
@@ -101,12 +101,12 @@ const ContactPage = () => {
           </div>
         </div>
 
-        <div className="max-w-2xl mx-auto hover:scale-105 transition-all duration-400 hover:bg-gray-200">
+        <div className="max-w-3xl mx-auto hover:scale-105 transition-all duration-400 hover:bg-gray-200">
           <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+            <a href="#" className="p-4">
               <Image
                 className="rounded-t-lg"
-                src="/images/pages/landing/gs.jpg"
+                src="/images/pages/landing/broadway.png"
                 width={1000}
                 height={1000}
                 alt="bg"
@@ -128,10 +128,10 @@ const ContactPage = () => {
 
         <div className="max-w-2xl mx-auto hover:scale-105 transition-all duration-400 hover:bg-gray-200">
           <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+            <a href="#" className="p-3">
               <Image
                 className="rounded-t-lg"
-                src="/images/pages/landing/hs.png"
+                src="/images/pages/landing/txcare.png"
                 width={1000}
                 height={1000}
                 alt="bg"
