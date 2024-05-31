@@ -35,13 +35,13 @@ const AboutContainer = () => {
                   <Image
                     src="/images/pages/landing/mission.webp"
                     alt="Mission"
-                    width={50}
-                    height={50}
+                    width={75}
+                    height={75}
                     className="object-cover mr-auto"
                   />
                 </div>
                 <div>
-                  <h4 className="text-xl font-semibold text-left">Our Mission</h4>
+                  <h4 className="text-2xl font-semibold text-left">Our Mission</h4>
                 </div>
               </div>
               <div className="text-muted leading-7 pt-4">
@@ -53,13 +53,13 @@ const AboutContainer = () => {
                   <Image
                     src="/images/pages/landing/vision.webp"
                     alt="Mission"
-                    width={50}
-                    height={50}
+                    width={75}
+                    height={75}
                     className="object-cover mr-auto"
                   />
                 </div>
                 <div>
-                  <h4 className="text-xl font-semibold text-left">Our Vision</h4>
+                  <h4 className="text-2xl font-semibold text-left">Our Vision</h4>
                 </div>
               </div>
               <div className="text-muted leading-7 pt-4">
@@ -68,8 +68,8 @@ const AboutContainer = () => {
           </div>
 
           <div className="pt-8  flex gap-x-6">
-            <Link  href="/contact" className="animated-button black">
-              About More
+            <Link  href="/team" className="animated-button black">
+              Meet Our Team
               <i aria-hidden className="fa-solid fa-arrow-right"></i>
             </Link>
             <i aria-hidden className="fa-solid fa-play custom-icon"></i>

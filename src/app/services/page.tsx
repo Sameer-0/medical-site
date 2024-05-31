@@ -27,16 +27,16 @@ const ServicePage = () => {
               <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/hiv.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
-                <a href="#" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
                   <b>HIV</b> - Human immunodeficiency virus
-                </a>
+                </b>
 
                 <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
                   <p className="text-muted pt-1 mt-2">At Galveston Specialty Pharmacy, we are committed to providing personalized HIV care that addresses the specific needs of each individual living with HIV. Our team of experienced pharmacists specializes in HIV management and offers tailored medication regimens, adherence support, and counseling services to optimize treatment outcomes. We understand the importance of comprehensive care and strive to empower our patients to lead healthy and fulfilling lives while managing their HIV diagnosis.</p>
                   <p className="text-muted pt-1 mt-2 text-green-800">Community Engagement Talk about our partnership with ACCT and all the services we support like testing and free delivery.</p>
                 </p>
                 <div className='flex mt-6 justify-center align-middle gap-20'>
-                    <a className='flex gap-2 cursor-pointer' href='https://www.hiv.gov/federal-response/policies-issues/hiv-aids-care-continuum'>
+                    <a className='flex gap-2 cursor-pointer' href='https://www.hiv.gov/federal-response/policies-issues/hiv-aids-care-continuum' target="_blank">
                       <Image
                         src="/images/pages/landing/govhin.webp"
                         alt="HIV"
@@ -45,7 +45,7 @@ const ServicePage = () => {
                       />
                       <h1 className="pt-2 text-blue-500">HIV Care Continuum</h1>
                     </a>
-                    <a className='flex gap-2 cursor-pointer' href='https://www.hiv.gov/federal-response/policies-issues/hiv-aids-care-continuum'>
+                    <a className='flex gap-2 cursor-pointer' href='https://www.hhs.gov/oidp/initiatives/index.html' target="_blank">
                       <Image
                         src="/images/pages/landing/hahs.svg"
                         alt="HIV"
@@ -63,15 +63,15 @@ const ServicePage = () => {
               <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/personalCare.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
-                <a href="#" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
                     Personalized care
-                </a>
+                </b>
 
                 <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
                   <p> At Galveston Specialty Pharmacy, we pride ourselves on offering personalized pharmacy care that prioritizes the individual needs and preferences of each patient. Our team of dedicated pharmacists takes the time to understand our patients' unique health concerns, lifestyle factors, and treatment goals to provide tailored medication management and support. From medication counseling to adherence monitoring, we strive to empower our patients to make informed decisions about their health and well-being.</p>
                 </p>
 
-                <p className="mt-3 text-sm text-blue-500">20 October 2019</p>
+                {/* <p className="mt-3 text-sm text-blue-500">20 October 2019</p> */}
               </div>
             </div>
           </div>
@@ -117,7 +117,7 @@ const ServicePage = () => {
                   />
                   <h1 className="pt-2 text-blue-500">Click here for more Information </h1>
                 </a>
-                <p className="mt-3 text-sm text-blue-500">21 October 2019</p>
+                {/* <p className="mt-3 text-sm text-blue-500">21 October 2019</p> */}
               </div>
             </div>
 
@@ -125,9 +125,9 @@ const ServicePage = () => {
               <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/microscopepharma.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
-                <a href="#" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
                   <b>PEP</b> Post-Exposure Prophylaxis
-                </a>
+                </b>
 
                 <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
                   <p className="text-muted pt-1 mt-2">PEP- PEP stands for post-exposure prophylaxis. The word “prophylaxis” means to prevent or control the spread of an infection or disease. PEP means taking HIV medicines within 72 hours (3 days) after a possible exposure to HIV to prevent HIV.</p>
@@ -144,7 +144,7 @@ const ServicePage = () => {
                   </a>
                 </p>
 
-                <p className="mt-3 text-sm text-blue-500">20 October 2019</p>
+                {/* <p className="mt-3 text-sm text-blue-500">20 October 2019</p> */}
               </div>
             </div>
           </div>
@@ -155,9 +155,9 @@ const ServicePage = () => {
               <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/care.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
-                <a href="#" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
                   <b>Linkage to Care...</b>
-                </a>
+                </b>
 
                 <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
                   <p className="text-muted pt-1 mt-2">At Galveston Specialty Pharmacy, we take pride in bridging the gap to care for patients affected by HIV/AIDS. We offer a vital link to essential healthcare services, including medication management, free medication delivery, and ongoing support. Our dedicated team ensures seamless coordination and access to comprehensive care, empowering patients to navigate their HIV/AIDS journey with confidence and dignity.</p>
@@ -173,7 +173,7 @@ const ServicePage = () => {
                       <h1 className="pt-2 text-blue-500">HIV Care Continuum</h1>
                     </a> */}
                   </div>
-                <p className="mt-3 text-sm text-blue-500">21 October 2019</p>
+                {/* <p className="mt-3 text-sm text-blue-500">21 October 2019</p> */}
               </div>
             </div>
 
@@ -181,9 +181,9 @@ const ServicePage = () => {
               <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/fd.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
-                <a href="#" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
-                  <b>Free Delevery</b>
-                </a>
+                <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                  <b>Free Delivery</b>
+                </b>
 
                 <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
                   <p className="text-muted pt-1 mt-2">Enjoy the convenience of free delivery on all your orders! With our free delivery service, you can shop from the comfort of your home without worrying about additional shipping costs. Whether you're purchasing daily essentials, gifts, or luxury items, we'll bring them straight to your doorstep at no extra charge. Experience hassle-free shopping with our fast, reliable, and cost-effective delivery solution.</p>
@@ -199,7 +199,7 @@ const ServicePage = () => {
                       <h1 className="pt-2 text-blue-500">HIV Care Continuum</h1>
                     </a> */}
                   </div>
-                <p className="mt-3 text-sm text-blue-500">21 October 2019</p>
+                {/* <p className="mt-3 text-sm text-blue-500">21 October 2019</p> */}
               </div>
             </div>
         </div>

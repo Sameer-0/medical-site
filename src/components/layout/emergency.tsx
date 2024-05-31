@@ -18,10 +18,7 @@ const Emergency = () => {
         </h2>
         <h1 className="text-2xl md:text-5xl font-semibold pt-2 md:pt-5">Get in touch with us on :</h1>
         <p className="text-muted pt-5">
-        {/* From personalized medication consultations to timely prescription refills and comprehensive health screenings, we prioritize the well-being of our customers above all else. Our commitment to excellence extends beyond the counter; we actively engage with our community, offering educational workshops and wellness programs to empower individuals to lead healthier lives.  */}
-        Underneath this tag line…add the following.
-          Taking care of your health demands time and effort and remembering to take all your medications can be challenging. Let us simplify things for you by consolidating all your prescriptions into one convenient location. We have the capability to fill prescriptions from any healthcare provider, including your primary care physician and other specialists.
-
+        From personalized medication consultations to timely prescription refills and comprehensive health screenings, we prioritize the well-being of our customers above all else. Our commitment to excellence extends beyond the counter; we actively engage with our community, offering educational workshops and wellness programs to empower individuals to lead healthier lives. 
         </p>
         <ul className="pt-5">
           <li className="custom-li md:text-[24px]">Monday-Friday </li>
@@ -40,10 +37,10 @@ const Emergency = () => {
               </div>
             </div>
             <div>
-              <h5 className="text-[14px] m-0">Phone Number</h5>
+              <h5 className="text-[14px] m-0 md:text-[18px]">Phone Number</h5>
               <Link
                 href="tel:409 877 7029"
-                className="text-xs transition-all duration-300 hover:text-primary"
+                className="text-xs transition-all duration-300 hover:text-primary md:text-[18px]"
               >
                 Call Us 409 877 7029
               </Link>
