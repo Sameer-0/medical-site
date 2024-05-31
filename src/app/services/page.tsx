@@ -55,7 +55,7 @@ const ServicePage = () => {
                       <h1 className="pt-2 text-blue-500">US Department of HHS The Office of Infectious Disease and HIV/AIDS </h1>
                     </a>
                   </div>
-                <p className="mt-3 text-sm text-blue-500">21 October 2019</p>
+                {/* <p className="mt-3 text-sm text-blue-500">21 October 2019</p> */}
               </div>
             </div>         
 
