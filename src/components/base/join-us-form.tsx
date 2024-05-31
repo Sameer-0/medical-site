@@ -1,13 +1,23 @@
 "use client"
 import { FormEvent } from "react";
 import { Input } from "../ui/input";
-
+import Image from "next/image";
 const JoinUsForm = () => {
   
   function handleFormSubmit(e: FormEvent) {
     e.preventDefault()
   }
   return (
+    <>
+    <div className="flex">
+      <Image
+        src="/images/pages/landing/js.jpg"
+        alt="HIV"
+        width={500}
+        height={500}
+      />
+    </div>
+
     <form
       onSubmit={handleFormSubmit}
       className="container px-5 py-24 mx-auto flex pr-20 w-[90%] md:w-[700px]"
@@ -69,6 +79,7 @@ const JoinUsForm = () => {
         </button>
       </div>
     </form>
+    </>
   );
 };
 
