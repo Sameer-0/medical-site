@@ -45,10 +45,10 @@ const Footer = () => {
               className="items-center mx-auto mb-4"
             />
             <p className="">
-              Our Mission is to provide individual focused pharmacy
+            At Galveston Specialty Pharmacy,
             </p>
             <p className="">
-              Services, Support and advocacy for out patients and patners
+            our mission is to redefine the standard of care for patients with complex medical needs by delivering unparalleled expertise, compassion, and support.
             </p>
             <br />
             © 2024-2025 Galveston Specialty Pharmacy. All Rights Reserved

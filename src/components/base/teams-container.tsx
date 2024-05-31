@@ -27,7 +27,7 @@ const TeamsContainer = () => {
                             <h3 className="mt-6 text-lg font-medium text-blue-500">Gaurav Midha </h3>
                             <p className="text-gray-600 dark:text-gray-300">Pharmacy Manager</p>
 
-                            <div className="flex items-center justify-between mt-12 lg:justify-start">
+                            {/* <div className="flex items-center justify-between mt-12 lg:justify-start">
                                 <Link href="#">
                                     <i
                                         aria-hidden
@@ -40,7 +40,7 @@ const TeamsContainer = () => {
                                         className="w-6 h-6 fa-brands fa-instagram hover:text-rose-600 transition-all duration-500"
                                     ></i>
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -71,14 +71,14 @@ const TeamsContainer = () => {
                             <h3 className="mt-6 text-lg font-medium text-blue-500">Nandan Kumar </h3>
                             <p className="text-gray-600 dark:text-gray-300">Staff Pharmacist</p>
 
-                            <div className="flex items-center justify-between mt-12 lg:justify-start">
+                            {/* <div className="flex items-center justify-between mt-12 lg:justify-start">
                                 <Link href="#">
                                     <i aria-hidden className="w-6 h-6 fa-brands fa-facebook-f hover:text-blue-600 transition-all duration-500"></i>
                                 </Link>
                                 <Link href="#">
                                     <i aria-hidden className="w-6 h-6 fa-brands fa-instagram hover:text-rose-600 transition-all duration-500"></i>
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@ const TeamsContainer = () => {
                             <h3 className="mt-6 text-lg font-medium text-blue-500">Frani Herrington</h3>
                             <p className="text-gray-600 dark:text-gray-300">Pharmacy Technician</p>
 
-                            <div className="flex items-center justify-between mt-12 lg:justify-start">
+                            {/* <div className="flex items-center justify-between mt-12 lg:justify-start">
                                 <Link href="#">
                                     <i
                                         aria-hidden
@@ -118,7 +118,7 @@ const TeamsContainer = () => {
                                         className="w-6 h-6 fa-brands fa-instagram hover:text-rose-600 transition-all duration-500"
                                     ></i>
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -143,25 +143,25 @@ const TeamsContainer = () => {
 
 
                             <h3 className="mt-6 text-lg font-medium text-blue-500">Ashley Winton </h3>
-                            <p className="text-gray-600 dark:text-gray-300">Exceptional pharmacy staff member </p>
+                            <p className="text-gray-600 dark:text-gray-300">Pharmacy Technician </p>
 
-                            <div className="flex items-center justify-between mt-12 lg:justify-start">
+                            {/* <div className="flex items-center justify-between mt-12 lg:justify-start">
                                 <Link href="#">
                                     <i aria-hidden className="w-6 h-6 fa-brands fa-facebook-f hover:text-blue-600 transition-all duration-500"></i>
                                 </Link>
                                 <Link href="#">
                                     <i aria-hidden className="w-6 h-6 fa-brands fa-instagram hover:text-rose-600 transition-all duration-500"></i>
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
-                <div className="pt-8">
+                {/* <div className="pt-8">
                   <Link href="/contact" className="animated-button border-slate-200 ml-5 border-2">
                       Join Our Team
                     <i aria-hidden className="fa-solid fa-arrow-right"></i>
                   </Link>
-                </div>
+                </div> */}
                 <hr className="mt-8 h-[1px] bg-slate-300" />
             </section>
             <JoinUsForm />

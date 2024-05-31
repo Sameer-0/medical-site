@@ -94,7 +94,10 @@ const ContactPage = () => {
                 </h5>
               </a>
               <p className="font-normal text-gray-700 mb-3 dark:text-gray-400 text-center">
-                8719 Highway 6 Hitchcock, TX 77563 Phone: 409 209 0847 Fax: 409
+                8719 Highway 6 
+                <br />Hitchcock, TX 77563 
+                <br /> Phone: 409 209 0847 
+                <br /> Fax: 409
                 209 0947
               </p>
             </div>
@@ -119,8 +122,10 @@ const ContactPage = () => {
                 </h5>
               </a>
               <p className="font-normal text-gray-700 mb-3 dark:text-gray-400 text-center" >
-                2027 Broadway St Galveston, TX 77550 Phone: 409 765 7701 Fax:
-                409 762 2545
+                2027 Broadway St 
+                <br />Galveston, TX 77550 
+                <br /> Phone: 409 765 7701 
+                <br />Fax: 409 762 2545
               </p>
             </div>
           </div>
@@ -140,11 +145,14 @@ const ContactPage = () => {
             <div className="p-5">
               <a href="#">
                 <h5 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white text-center">
-                  Texas Care Pharmacy 4900 Fannin St
+                  Texas Care <br />Pharmacy 
                 </h5>
               </a>
               <p className="font-normal text-gray-700 mb-3 dark:text-gray-400 text-center">
-                Houston, TX 77004 Phone: 832 769 0088 Fax: 832 769 0023
+                4900 Fannin St 
+                <br />Houston, TX 77004 
+                <br />Phone: 832 769 0088 
+                <br />Fax: 832 769 0023
               </p>
             </div>
           </div>
