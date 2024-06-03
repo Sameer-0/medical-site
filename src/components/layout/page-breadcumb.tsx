@@ -11,7 +11,7 @@ const PageBreadCrumb = ({
 }) => {
   return (
     <div className="bg-[url(/images/pages/breadcrumb.webp)] bg-cover text-center md:px-40 py-10 md:py-20">
-      <h1 className="text-5xl lg:text-6xl font-semibold pb-2">{heading}</h1>
+      <h2 className="text-5xl lg:text-6xl font-semibold pb-2">{heading}</h2>
       <ul className="flex justify-center items-center gap-x-1">
         <li className="hover:text-primary transition-all duration-300">
           <Link href="/">Home</Link>
