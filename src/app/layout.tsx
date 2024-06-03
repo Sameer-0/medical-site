@@ -44,7 +44,7 @@ export default function RootLayout({
         className={cn(inter.className, "container p-0")}
         suppressHydrationWarning
       >
-        <TopHeader />
+        {/* <TopHeader /> */}
         <BottomHeader />
         <main className="min-h-[79vh]">{children}</main>
         <ScrollToTopButton />
