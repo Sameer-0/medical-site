@@ -40,19 +40,19 @@ const ServicePage = () => {
                       <Image
                         src="/images/pages/landing/govhin.webp"
                         alt="HIV"
-                        width={40}
-                        height={40}
+                        width={80}
+                        height={80}
                       />
-                      <h1 className="pt-2 text-blue-500">HIV Care Continuum</h1>
+                      {/* <h1 className="pt-2 text-blue-500">HIV Care Continuum</h1> */}
                     </a>
                     <a className='flex gap-2 cursor-pointer' href='https://www.hhs.gov/oidp/initiatives/index.html' target="_blank">
-                      <Image
+                      <Image className='w-[240px]'
                         src="/images/pages/landing/hahs.svg"
                         alt="HIV"
-                        width={50}
-                        height={50}
+                        width={80}
+                        height={80}
                       />
-                      <h1 className="pt-2 text-blue-500">US Department of HHS The Office of Infectious Disease and HIV/AIDS </h1>
+                      {/* <h1 className="pt-2 text-blue-500">US Department of HHS The Office of Infectious Disease and HIV/AIDS </h1> */}
                     </a>
                   </div>
                 {/* <p className="mt-3 text-sm text-blue-500">21 October 2019</p> */}
