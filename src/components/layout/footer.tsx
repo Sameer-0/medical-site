@@ -40,20 +40,20 @@ const Footer = () => {
             <Image
               src="/images/logonbg.webp"
               alt="Logo"
-              width={120}
-              height={120}
+              width={160}
+              height={160}
               className="items-center mx-auto mb-4"
             />
-            <p className="">
+            {/* <p className="">
             At Galveston Specialty Pharmacy,
             </p>
             <p className="">
             our mission is to redefine the standard of care for patients with complex medical needs by delivering unparalleled expertise, compassion, and support.
-            </p>
+            </p> */}
             <br />
             © 2024-2025 Galveston Specialty Pharmacy. All Rights Reserved
           </div>
-          <div className="col-span-full md:col-span-1 flex justify-center md:justify-end gap-x-2">
+          <div className="col-span-full md:col-span-1 flex justify-center md:justify-end">
             {/* <Link href="#">
               <i
                 aria-hidden
