@@ -76,9 +76,9 @@ const ContactPage = () => {
         <h1 className="text-4xl font-bold leading-none text-center sm:text-5xl">
           Our Sister Pharmacies
         </h1>
-        <div className="max-w-2xl mx-auto hover:scale-105 transition-all duration-400 hover:bg-gray-200">
+        <div className="max-w-3xl mx-auto hover:scale-105 transition-all duration-400 hover:bg-gray-200">
           <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
-            <a href="#" className="p-3">
+            <a href="#" className="p-4">
               <Image
                 className="rounded-t-lg"
                 src="/images/pages/landing/hhrx.png"
@@ -87,7 +87,7 @@ const ContactPage = () => {
                 alt="bg"
               />
             </a>
-            <div className="p-3">
+            <div className="p-5">
               <a href="#">
                 <h5 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white text-center">
                   Hitchcock Hometown Pharmacy

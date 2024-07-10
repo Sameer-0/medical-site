@@ -28,7 +28,7 @@ const ServicePage = () => {
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
-                  <b>HIV</b> - Human immunodeficiency virus
+                  Human immunodeficiency virus<b>(HIV)</b>
                 </b>
 
                 <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
@@ -40,19 +40,19 @@ const ServicePage = () => {
                       <Image
                         src="/images/pages/landing/govhin.webp"
                         alt="HIV"
-                        width={40}
-                        height={40}
+                        width={80}
+                        height={80}
                       />
-                      <h1 className="pt-2 text-blue-500">HIV Care Continuum</h1>
+                      {/* <h1 className="pt-2 text-blue-500">HIV Care Continuum</h1> */}
                     </a>
                     <a className='flex gap-2 cursor-pointer' href='https://www.hhs.gov/oidp/initiatives/index.html' target="_blank">
-                      <Image
+                      <Image className='w-[240px]'
                         src="/images/pages/landing/hahs.svg"
                         alt="HIV"
-                        width={50}
-                        height={50}
+                        width={80}
+                        height={80}
                       />
-                      <h1 className="pt-2 text-blue-500">US Department of HHS The Office of Infectious Disease and HIV/AIDS </h1>
+                      {/* <h1 className="pt-2 text-blue-500">US Department of HHS The Office of Infectious Disease and HIV/AIDS </h1> */}
                     </a>
                   </div>
                 {/* <p className="mt-3 text-sm text-blue-500">21 October 2019</p> */}
@@ -60,7 +60,7 @@ const ServicePage = () => {
             </div>         
 
             <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
-              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/personalCare.jpg" alt="" />
+              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/pcare.png" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
@@ -68,7 +68,7 @@ const ServicePage = () => {
                 </b>
 
                 <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
-                  <p> At Galveston Specialty Pharmacy, we pride ourselves on offering personalized pharmacy care that prioritizes the individual needs and preferences of each patient. Our team of dedicated pharmacists takes the time to understand our patients' unique health concerns, lifestyle factors, and treatment goals to provide tailored medication management and support. From medication counseling to adherence monitoring, we strive to empower our patients to make informed decisions about their health and well-being.</p>
+                  <p className='text-muted pt-1 mt-2'> At Galveston Specialty Pharmacy, we pride ourselves on offering personalized pharmacy care that prioritizes the individual needs and preferences of each patient. Our team of dedicated pharmacists takes the time to understand our patients' unique health concerns, lifestyle factors, and treatment goals to provide tailored medication management and support. From medication counseling to adherence monitoring, we strive to empower our patients to make informed decisions about their health and well-being.</p>
                 </p>
 
                 {/* <p className="mt-3 text-sm text-blue-500">20 October 2019</p> */}
@@ -96,7 +96,7 @@ const ServicePage = () => {
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <a href="#" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
-                  <b>PrEP</b>  - pre-exposure prophylaxis
+                  pre-exposure prophylaxis<b>(PrEP)</b>
                 </a>
 
                 <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
@@ -122,11 +122,11 @@ const ServicePage = () => {
             </div>
 
             <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
-              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/microscopepharma.jpg" alt="" />
+              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/pep.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
-                  <b>PEP</b> Post-Exposure Prophylaxis
+                  Post-Exposure Prophylaxis<b>(PEP)</b> 
                 </b>
 
                 <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
@@ -156,7 +156,7 @@ const ServicePage = () => {
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
-                  <b>Linkage to Care...</b>
+                  <p>Linkage to Care</p>
                 </b>
 
                 <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
