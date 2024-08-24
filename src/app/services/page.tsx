@@ -11,7 +11,7 @@ const ServicePage = () => {
       </section>
 
 
-      <section className="bg-white dark:bg-gray-900" >
+      <section className="bg-white dark:bg-gray-900 " >
         <div className="container px-6 py-10 mx-auto">
           <div className="text-center ">
             {/* <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white"><b>HIV</b> - Human immunodeficiency virus</h1>
@@ -31,7 +31,7 @@ const ServicePage = () => {
                   Human immunodeficiency virus<b>(HIV)</b>
                 </b>
 
-                <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                <p className="text-muted mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
                   <p className="text-muted pt-1 mt-2">At Galveston Specialty Pharmacy, we are committed to providing personalized HIV care that addresses the specific needs of each individual living with HIV. Our team of experienced pharmacists specializes in HIV management and offers tailored medication regimens, adherence support, and counseling services to optimize treatment outcomes. We understand the importance of comprehensive care and strive to empower our patients to lead healthy and fulfilling lives while managing their HIV diagnosis.</p>
                   <p className="text-muted pt-1 mt-2 text-green-800">Community Engagement Talk about our partnership with ACCT and all the services we support like testing and free delivery.</p>
                 </p>
@@ -60,14 +60,14 @@ const ServicePage = () => {
             </div>         
 
             <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
-              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/pcare.png" alt="" />
+              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/pcare2.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
                     Personalized care
                 </b>
 
-                <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                <p className="text-muted mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
                   <p className='text-muted pt-1 mt-2'> At Galveston Specialty Pharmacy, we pride ourselves on offering personalized pharmacy care that prioritizes the individual needs and preferences of each patient. Our team of dedicated pharmacists takes the time to understand our patients' unique health concerns, lifestyle factors, and treatment goals to provide tailored medication management and support. From medication counseling to adherence monitoring, we strive to empower our patients to make informed decisions about their health and well-being.</p>
                 </p>
 
@@ -99,7 +99,7 @@ const ServicePage = () => {
                   pre-exposure prophylaxis<b>(PrEP)</b>
                 </a>
 
-                <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                <p className="text-muted mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
                   <p className="text-muted pt-1 mt-2">PrEP (pre-exposure prophylaxis) is medicine that reduces your chances of getting HIV from sex or injection drug use. When taken as prescribed, PrEP is highly effective for preventing HIV.</p>
                   <br />
                   <h3>Is PrEP safe?</h3>
@@ -129,7 +129,7 @@ const ServicePage = () => {
                   Post-Exposure Prophylaxis<b>(PEP)</b> 
                 </b>
 
-                <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                <p className="text-muted mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
                   <p className="text-muted pt-1 mt-2">PEP- PEP stands for post-exposure prophylaxis. The word “prophylaxis” means to prevent or control the spread of an infection or disease. PEP means taking HIV medicines within 72 hours (3 days) after a possible exposure to HIV to prevent HIV.</p>
                   <br />
                   <p className="text-muted pt-1 mt-2 text-green-800">PEP should be used only in emergency situations. It is not meant for regular use by people who may be exposed to HIV frequently. PEP is not intended to replace regular use of other HIV prevention methods, such as consistent and proper use of condoms during sex or pre-exposure prophylaxis (PrEP). PrEP is different than PEP, in that people at risk for HIV take a specific HIV medicine daily or an injection every two months to prevent getting HIV</p>
@@ -159,7 +159,7 @@ const ServicePage = () => {
                   <p>Linkage to Care</p>
                 </b>
 
-                <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                <p className="text-muted mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
                   <p className="text-muted pt-1 mt-2">At Galveston Specialty Pharmacy, we take pride in bridging the gap to care for patients affected by HIV/AIDS. We offer a vital link to essential healthcare services, including medication management, free medication delivery, and ongoing support. Our dedicated team ensures seamless coordination and access to comprehensive care, empowering patients to navigate their HIV/AIDS journey with confidence and dignity.</p>
                 </p>
                 <div className='flex mt-6 justify-center align-middle gap-20'>
@@ -185,7 +185,7 @@ const ServicePage = () => {
                   <b>Free Delivery</b>
                 </b>
 
-                <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                <p className="text-muted mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
                   <p className="text-muted pt-1 mt-2">Enjoy the convenience of free delivery on all your orders! With our free delivery service, you can shop from the comfort of your home without worrying about additional shipping costs. Whether you're purchasing daily essentials, gifts, or luxury items, we'll bring them straight to your doorstep at no extra charge. Experience hassle-free shopping with our fast, reliable, and cost-effective delivery solution.</p>
                 </p>
                 <div className='flex mt-6 justify-center align-middle gap-20'>

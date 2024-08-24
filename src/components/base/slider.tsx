@@ -37,7 +37,7 @@ const Slider = () => {
   {
     "image" : 1,
     "headerText" : "HIV Care",
-    "bodyText" : "Human immunodeficiency virus"
+    "bodyText" : "Human Immunodeficiency Virus"
   },
   {
     "image" : 2,
@@ -47,7 +47,7 @@ const Slider = () => {
   {
     "image" : 3,
     "headerText" : "PrEP",
-    "bodyText" : "pre-exposure prophylaxis"
+    "bodyText" : "Pre-Exposure Prophylaxis"
   },
   {
     "image" : 4,

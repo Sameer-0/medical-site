@@ -9,7 +9,7 @@ const Emergency = () => {
           src="/images/pages/landing/studio.jpg"
           alt="Emergency"
           fill
-          className="px-10 sm:px-20 md:px-5 lg:px-16 rounded-lg"
+          className="rounded-[80px] px-10 sm:px-20 md:px-5 lg:px-16"
         />
       </div>
       <div className="px-5 sm:px-10 col-span-3">

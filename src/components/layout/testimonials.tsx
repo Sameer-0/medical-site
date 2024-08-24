@@ -111,7 +111,7 @@ const Testimonials = () => {
                           </p>
 
                           <p className="mt-4 leading-relaxed text-gray-700">
-                          Absolutely One of the best pharmacies on the island. Professional, knowledgeable, and dedicated. The young lady in the front I believe her name is “Frani” she’s such a Gem!!!❤️💎💊
+                          Absolutely One of the best Pharmacy on the island. Professional, knowledgeable, and dedicated. The young lady in the front I believe her name is “Frani” she’s such a Gem!!!❤️💎💊
                           </p>
                         </div>
                       </div>
@@ -180,7 +180,7 @@ const Testimonials = () => {
                       <div>
                         <div className="mt-4">
                           <p className="text-2xl font-bold text-custom sm:text-3xl">
-                          Best pharmacies on the island
+                          Best Pharmacy on the island
                           </p>
 
                           <p className="mt-4 leading-relaxed text-gray-700">

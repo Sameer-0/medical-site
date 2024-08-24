@@ -35,8 +35,13 @@ const Hero = () => {
           </div> */}
         </div>
         <div className="col-span-1 flex justify-center">
-          <div className="relative w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] md:w-[380px] md:h-[380px]">
-            <Image src="/images/pages/landing/home4.png" alt="Hero" fill />
+          <div className="relative w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] md:w-[380px] md:h-[380px] mt-[150px]">
+            <Image 
+              src="/images/pages/landing/home5.jpg" 
+              width={3500}
+              height={3500}
+              alt="Hero" 
+              className="rounded-3xl"/>
           </div>
         </div>
       </div>

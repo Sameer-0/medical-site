@@ -7,7 +7,7 @@ const AboutContainer = () => {
       <div className="grid grid-cols-12 gap-6">
         <div className="col-span-12 lg:col-span-5 flex justify-center items-center">
           <Image
-            src="/images/pages/landing/collage1.jpg"
+            src="/images/pages/landing/collage.jpg"
             alt="About image"
             width={600}
             height={1000}
