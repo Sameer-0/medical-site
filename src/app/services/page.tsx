@@ -28,12 +28,12 @@ const ServicePage = () => {
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
-                  Human immunodeficiency virus<b>(HIV)</b>
+                  Human immunodeficiency virus
                 </b>
 
                 <p className="text-muted mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
                   <p className="text-muted pt-1 mt-2">At Galveston Specialty Pharmacy, we are committed to providing personalized HIV care that addresses the specific needs of each individual living with HIV. Our team of experienced pharmacists specializes in HIV management and offers tailored medication regimens, adherence support, and counseling services to optimize treatment outcomes. We understand the importance of comprehensive care and strive to empower our patients to lead healthy and fulfilling lives while managing their HIV diagnosis.</p>
-                  <p className="text-muted pt-1 mt-2 text-green-800">Community Engagement Talk about our partnership with ACCT and all the services we support like testing and free delivery.</p>
+                  <p className="text-muted pt-1 mt-2 m text-gray-500">Community Engagement Talk about our partnership with ACCT and all the services we support like testing and free delivery.</p>
                 </p>
                 <div className='flex mt-6 justify-center align-middle gap-20'>
                     <a className='flex gap-2 cursor-pointer' href='https://www.hiv.gov/federal-response/policies-issues/hiv-aids-care-continuum' target="_blank">
@@ -96,7 +96,7 @@ const ServicePage = () => {
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <a href="#" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
-                  pre-exposure prophylaxis<b>(PrEP)</b>
+                  Pre-Exposure Prophylaxis
                 </a>
 
                 <p className="text-muted mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
@@ -126,13 +126,13 @@ const ServicePage = () => {
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
-                  Post-Exposure Prophylaxis<b>(PEP)</b> 
+                  Post-Exposure Prophylaxis
                 </b>
 
                 <p className="text-muted mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
                   <p className="text-muted pt-1 mt-2">PEP- PEP stands for post-exposure prophylaxis. The word “prophylaxis” means to prevent or control the spread of an infection or disease. PEP means taking HIV medicines within 72 hours (3 days) after a possible exposure to HIV to prevent HIV.</p>
                   <br />
-                  <p className="text-muted pt-1 mt-2 text-green-800">PEP should be used only in emergency situations. It is not meant for regular use by people who may be exposed to HIV frequently. PEP is not intended to replace regular use of other HIV prevention methods, such as consistent and proper use of condoms during sex or pre-exposure prophylaxis (PrEP). PrEP is different than PEP, in that people at risk for HIV take a specific HIV medicine daily or an injection every two months to prevent getting HIV</p>
+                  <p className="text-muted pt-1 mt-2 m text-gray-500">PEP should be used only in emergency situations. It is not meant for regular use by people who may be exposed to HIV frequently. PEP is not intended to replace regular use of other HIV prevention methods, such as consistent and proper use of condoms during sex or pre-exposure prophylaxis (PrEP). PrEP is different than PEP, in that people at risk for HIV take a specific HIV medicine daily or an injection every two months to prevent getting HIV</p>
                   <a className='flex gap-2 cursor-pointer justify-center align-middle mt-3' href='https://hivinfo.nih.gov/understanding-hiv/fact-sheets/post-exposure-prophylaxis-pep#:~:text=What%20is%20PEP%3F,to%20HIV%20to%20prevent%20HIV'>
                     <img
                       src="/images/pages/landing/linkIcon.png"
@@ -181,12 +181,13 @@ const ServicePage = () => {
               <img width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/fd.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
-                <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
-                  <b>Free Delivery</b>
+              <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                  <p>Free Delivery</p>
                 </b>
 
                 <p className="text-muted mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
-                  <p className="text-muted pt-1 mt-2">Enjoy the convenience of free delivery on all your orders! With our free delivery service, you can shop from the comfort of your home without worrying about additional shipping costs. Whether you're purchasing daily essentials, gifts, or luxury items, we'll bring them straight to your doorstep at no extra charge. Experience hassle-free shopping with our fast, reliable, and cost-effective delivery solution.</p>
+                  <p className="text-muted pt-1 mt-2">We always prioritize your health and convenience. That’s why we offer free home delivery for all your medications, ensuring timely and secure access to the prescriptions you need. We provide delivery all over Galveston, Brazoria, and Matagorda counties for FREE! If you prefer us to bring your order to your work or an alternate location, please speak with the pharmacy staff. Let us bring your medications directly to your door at no extra cost—because your well-being matters. 
+                  Choose Galveston Specialty Pharmacy, your trusted local pharmacy, for hassle-free healthcare!</p>
                 </p>
                 <div className='flex mt-6 justify-center align-middle gap-20'>
                     {/* <a className='flex gap-2 cursor-pointer' href='https://www.hiv.gov/federal-response/policies-issues/hiv-aids-care-continuum'>

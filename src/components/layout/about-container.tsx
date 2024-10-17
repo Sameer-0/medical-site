@@ -11,7 +11,7 @@ const AboutContainer = () => {
             alt="About image"
             width={600}
             height={1000}
-            className="flex-none"
+            className="flex-none lg:mt-[-300px]"
           />
         </div>
         <div className="col-span-12 lg:col-span-7">
