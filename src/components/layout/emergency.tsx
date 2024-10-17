@@ -5,11 +5,10 @@ const Emergency = () => {
   return (
     <div className="mt-20 grid gap-y-10 grid-cols-1 md:grid-cols-5">
       <div className="relative h-full min-h-[350px] max-h-[450px] col-span-2 border-blue-200">
-        <Image
+        <img
           src="/images/pages/landing/studio.jpg"
           alt="Emergency"
-          fill
-          className="rounded-[80px] px-10 sm:px-20 md:px-5 lg:px-16"
+          className="rounded-[80px] px-10 sm:px-20 md:px-5 lg:px-16 fill-current"
         />
       </div>
       <div className="px-5 sm:px-10 col-span-3">
@@ -28,7 +27,7 @@ const Emergency = () => {
           <div className="flex gap-4">
             <div>
               <div className="bg-primary p-3 rounded-full">
-                <Image
+                <img
                   src="/images/pages/landing/phone.webp"
                   alt="Emergency"
                   width={18}
@@ -49,7 +48,7 @@ const Emergency = () => {
           <div className="flex gap-4">
             <div>
               <div className="bg-primary p-3 rounded-full">
-                {/* <Image
+                {/* <img
                   src="/images/pages/landing/email.webp"
                   alt="Emergency"
                   width={18}

@@ -24,7 +24,7 @@ const ServicePage = () => {
 
           <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 ">
             <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
-              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/hiv.jpg" alt="" />
+              <img width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/hiv.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
@@ -37,7 +37,7 @@ const ServicePage = () => {
                 </p>
                 <div className='flex mt-6 justify-center align-middle gap-20'>
                     <a className='flex gap-2 cursor-pointer' href='https://www.hiv.gov/federal-response/policies-issues/hiv-aids-care-continuum' target="_blank">
-                      <Image
+                      <img
                         src="/images/pages/landing/govhin.webp"
                         alt="HIV"
                         width={80}
@@ -46,7 +46,7 @@ const ServicePage = () => {
                       {/* <h1 className="pt-2 text-blue-500">HIV Care Continuum</h1> */}
                     </a>
                     <a className='flex gap-2 cursor-pointer' href='https://www.hhs.gov/oidp/initiatives/index.html' target="_blank">
-                      <Image className='w-[240px]'
+                      <img className='w-[240px]'
                         src="/images/pages/landing/hahs.svg"
                         alt="HIV"
                         width={80}
@@ -60,7 +60,7 @@ const ServicePage = () => {
             </div>         
 
             <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
-              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/pcare2.jpg" alt="" />
+              <img width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/pcare2.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
@@ -92,7 +92,7 @@ const ServicePage = () => {
 
           <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2">
             <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
-              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/prep1.png" alt="" />
+              <img width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/prep1.png" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <a href="#" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
@@ -109,7 +109,7 @@ const ServicePage = () => {
                   </ul>
                 </p>
                 <a className='flex gap-2 cursor-pointer justify-center align-middle mt-3' href='https://www.cdc.gov/hiv/risk/prep/index.html#:~:text=Print-,Pre%2DExposure%20Prophylaxis%20(PrEP),use%20by%20at%20least%2074%25'>
-                  <Image
+                  <img
                     src="/images/pages/landing/linkIcon.png"
                     alt="HIV"
                     width={30}
@@ -122,7 +122,7 @@ const ServicePage = () => {
             </div>
 
             <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
-              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/pep.jpg" alt="" />
+              <img width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/pep.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
@@ -134,7 +134,7 @@ const ServicePage = () => {
                   <br />
                   <p className="text-muted pt-1 mt-2 text-green-800">PEP should be used only in emergency situations. It is not meant for regular use by people who may be exposed to HIV frequently. PEP is not intended to replace regular use of other HIV prevention methods, such as consistent and proper use of condoms during sex or pre-exposure prophylaxis (PrEP). PrEP is different than PEP, in that people at risk for HIV take a specific HIV medicine daily or an injection every two months to prevent getting HIV</p>
                   <a className='flex gap-2 cursor-pointer justify-center align-middle mt-3' href='https://hivinfo.nih.gov/understanding-hiv/fact-sheets/post-exposure-prophylaxis-pep#:~:text=What%20is%20PEP%3F,to%20HIV%20to%20prevent%20HIV'>
-                    <Image
+                    <img
                       src="/images/pages/landing/linkIcon.png"
                       alt="HIV"
                       width={30}
@@ -152,7 +152,7 @@ const ServicePage = () => {
         <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 !mb-16">
 
           <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
-              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/care.jpg" alt="" />
+              <img width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/care.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
@@ -164,7 +164,7 @@ const ServicePage = () => {
                 </p>
                 <div className='flex mt-6 justify-center align-middle gap-20'>
                     {/* <a className='flex gap-2 cursor-pointer' href='https://www.hiv.gov/federal-response/policies-issues/hiv-aids-care-continuum'>
-                      <Image
+                      <img
                         src="/images/pages/landing/govhin.webp"
                         alt="HIV"
                         width={40}
@@ -178,7 +178,7 @@ const ServicePage = () => {
             </div>
 
             <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
-              <Image width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/fd.jpg" alt="" />
+              <img width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/fd.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                 <b className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
@@ -190,7 +190,7 @@ const ServicePage = () => {
                 </p>
                 <div className='flex mt-6 justify-center align-middle gap-20'>
                     {/* <a className='flex gap-2 cursor-pointer' href='https://www.hiv.gov/federal-response/policies-issues/hiv-aids-care-continuum'>
-                      <Image
+                      <img
                         src="/images/pages/landing/govhin.webp"
                         alt="HIV"
                         width={40}

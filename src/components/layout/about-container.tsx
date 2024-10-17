@@ -6,7 +6,7 @@ const AboutContainer = () => {
     <div className="pt-16 md:pt-24 px-10">
       <div className="grid grid-cols-12 gap-6">
         <div className="col-span-12 lg:col-span-5 flex justify-center items-center">
-          <Image
+          <img
             src="/images/pages/landing/collage.jpg"
             alt="About image"
             width={600}
@@ -32,7 +32,7 @@ const AboutContainer = () => {
             <div>
               <div className="flex gap-x-5">
                 <div className="relative img-bg-cicle pl-1">
-                  <Image
+                  <img
                     src="/images/pages/landing/mission.webp"
                     alt="Mission"
                     width={75}
@@ -50,7 +50,7 @@ const AboutContainer = () => {
             <div>
             <div className="flex gap-x-5">
                 <div className="relative img-bg-cicle pl-1">
-                  <Image
+                  <img
                     src="/images/pages/landing/vision.webp"
                     alt="Mission"
                     width={75}

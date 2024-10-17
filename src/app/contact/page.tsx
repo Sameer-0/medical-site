@@ -15,7 +15,7 @@ const ContactPage = () => {
             className="transition-all duration-300 hover:text-primary"
           >
             <div className="bg-primary/10 w-fit p-5 mx-auto rounded-full">
-              <Image
+              <img
                 src="/images/pages/landing/phone2.webp"
                 alt="Phone"
                 width={30}
@@ -44,7 +44,7 @@ const ContactPage = () => {
             className="text-xs transition-all duration-300 hover:text-primary bla"
           >
             <div className="bg-primary/10 w-fit p-5 mx-auto rounded-full">
-              <Image
+              <img
                 src="/images/pages/landing/location.webp"
                 alt="location"
                 width={30}
@@ -79,7 +79,7 @@ const ContactPage = () => {
         <div className="max-w-3xl mx-auto hover:scale-105 transition-all duration-400 hover:bg-gray-200">
           <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
             <a href="#" className="p-4">
-              <Image
+              <img
                 className="rounded-t-lg"
                 src="/images/pages/landing/hhrx.png"
                 width={1000}
@@ -107,7 +107,7 @@ const ContactPage = () => {
         <div className="max-w-3xl mx-auto hover:scale-105 transition-all duration-400 hover:bg-gray-200">
           <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
             <a href="#" className="p-4">
-              <Image
+              <img
                 className="rounded-t-lg"
                 src="/images/pages/landing/broadway.png"
                 width={1000}
@@ -134,7 +134,7 @@ const ContactPage = () => {
         <div className="max-w-2xl mx-auto hover:scale-105 transition-all duration-400 hover:bg-gray-200">
           <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
             <a href="#" className="p-3">
-              <Image
+              <img
                 className="rounded-t-lg"
                 src="/images/pages/landing/txcare.png"
                 width={1000}

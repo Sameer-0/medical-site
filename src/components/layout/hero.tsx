@@ -36,7 +36,7 @@ const Hero = () => {
         </div>
         <div className="col-span-1 flex justify-center">
           <div className="relative w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] md:w-[380px] md:h-[380px] mt-[150px]">
-            <Image 
+            <img 
               src="/images/pages/landing/home5.jpg" 
               width={3500}
               height={3500}
@@ -45,42 +45,42 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <Image
+      <img
         src="/images/pages/landing/bulb.webp"
         alt="Bulb"
         width={35}
         height={35}
         className="absolute top-[15%] sm:top-16 md:top-14 md:right-2/3 animate-spin-slow"
       />
-      <Image
+      <img
         src="/images/pages/landing/pulse-circle.webp"
         alt="Bulb"
         width={35}
         height={35}
         className="absolute top-[60%] md:top-16 right-10 md:right-2/4 animate-heartbeat"
       />
-      <Image
+      <img
         src="/images/pages/landing/big-circle.webp"
         alt="Bulb"
         width={150}
         height={150}
         className="hidden md:block absolute top-5 md:left-[55%] right-5"
       />
-      {/* <Image
+      {/* <img
         src="/images/pages/landing/pulse-doughnut.webp"
         alt="Bulb"
         width={50}
         height={50}
         className="absolute top-1/2 left-10 md:left-1 animate-heartbeat"
       /> */}
-      <Image
+      <img
         src="/images/pages/landing/mid-bottom-pulse.webp"
         alt="Bulb"
         width={100}
         height={100}
         className="absolute -bottom-1 md:bottom-1/4 right-12 md:left-[90%] animate-heartbeat"
       />
-      <Image
+      <img
         src="/images/pages/landing/oval-stale.webp"
         alt="Bulb"
         width={200}

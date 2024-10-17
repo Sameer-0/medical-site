@@ -37,7 +37,7 @@ const Footer = () => {
 
           </div> */}
           <div className="pl-2 text-center text-sm md:text-base">
-            <Image
+            <img
               src="/images/logonbg.webp"
               alt="Logo"
               width={160}

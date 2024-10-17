@@ -8,7 +8,7 @@ const TeamsContainer = () => {
             <section className="bg-white dark:bg-gray-900">
                 <div className="container px-6 py-10 mx-auto">
                     <div className="lg:-mx-6 lg:flex lg:items-center">
-                        <Image className="object-cover object-center lg:w-1/3 lg:mx-6 w-full h-72 rounded-full lg:h-[25rem]" width={500} height={500} src="/images/pages/landing/Gaurav.jpg" alt="Member" />
+                        <img className="object-cover object-center lg:w-1/3 lg:mx-6 w-full h-72 rounded-full lg:h-[25rem]" width={500} height={500} src="/images/pages/landing/Gaurav.jpg" alt="Member" />
 
                         <div className="mt-8 lg:w-1/2 lg:px-6 lg:mt-0">
                             <p className="text-5xl font-semibold text-blue-500 ">“</p>
@@ -51,7 +51,7 @@ const TeamsContainer = () => {
                 <div className="container px-6 py-10 mx-auto">
                     <div className="lg:flex lg:items-center lg:justify-between">
                         <div className="lg:w-1/2 lg:order-2 lg:ml-6">
-                            <Image className="object-cover object-center w-500 lg:w-3/4 sm:w-full h-72 rounded-full lg:h-[25rem]" width={500} height={500} src="/images/pages/landing/Nandan.jpg" alt="Member" />
+                            <img className="object-cover object-center w-500 lg:w-3/4 sm:w-full h-72 rounded-full lg:h-[25rem]" width={500} height={500} src="/images/pages/landing/Nandan.jpg" alt="Member" />
                         </div>
 
                         <div className="lg:w-1/2 lg:order-1 lg:px-6">
@@ -88,7 +88,7 @@ const TeamsContainer = () => {
             <section className="bg-white dark:bg-gray-900">
                 <div className="container px-6 py-10 mx-auto">
                     <div className="lg:-mx-6 lg:flex lg:items-center">
-                        <Image className="object-cover object-center lg:w-1/3 lg:mx-6 w-full h-72 rounded-full lg:h-[25rem]" width={500} height={500} src="/images/pages/landing/Frani.jpg" alt="Member" />
+                        <img className="object-cover object-center lg:w-1/3 lg:mx-6 w-full h-72 rounded-full lg:h-[25rem]" width={500} height={500} src="/images/pages/landing/Frani.jpg" alt="Member" />
 
                         <div className="mt-8 lg:w-1/2 lg:px-6 lg:mt-0">
                             <p className="text-5xl font-semibold text-blue-500 ">“</p>
@@ -128,7 +128,7 @@ const TeamsContainer = () => {
                 <div className="container px-6 py-10 mx-auto">
                     <div className="lg:flex lg:items-center lg:justify-between">
                         <div className="lg:w-1/2 lg:order-2 lg:ml-6">
-                            <Image className="object-cover object-center w-500 lg:w-3/4 sm:w-full h-72 rounded-full lg:h-[25rem]" width={500} height={500} src="/images/pages/landing/Ashley.jpg" alt="Member" />
+                            <img className="object-cover object-center w-500 lg:w-3/4 sm:w-full h-72 rounded-full lg:h-[25rem]" width={500} height={500} src="/images/pages/landing/Ashley.jpg" alt="Member" />
                         </div>
 
                         <div className="lg:w-1/2 lg:order-1 lg:px-6">
@@ -168,7 +168,7 @@ const TeamsContainer = () => {
             <section className="bg-white dark:bg-gray-900">
                 <div className="container px-6 py-10 mx-auto">
                     <div className="lg:-mx-6 lg:flex lg:items-center">
-                        <Image className="object-cover object-center lg:w-1/3 lg:mx-6 w-full h-72 rounded-full lg:h-[25rem]" width={500} height={500} src="/images/pages/landing/Steve.jpg" alt="Member" />
+                        <img className="object-cover object-center lg:w-1/3 lg:mx-6 w-full h-72 rounded-full lg:h-[25rem]" width={500} height={500} src="/images/pages/landing/Steve.jpg" alt="Member" />
 
                         <div className="mt-8 lg:w-1/2 lg:px-6 lg:mt-0">
                             <p className="text-5xl font-semibold text-blue-500 ">“</p>

@@ -10,7 +10,7 @@ const JoinUsForm = () => {
   return (
     <>
     <div className="flex justify-center align-middle mr-11">
-      <Image
+      <img
         src="/images/pages/landing/js.jpg"
         alt="HIV"
         width={600}

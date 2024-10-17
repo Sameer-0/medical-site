@@ -9,7 +9,7 @@ const CarouselCard = ({
 }) => {
   return (
     <div className="p-8 min-h-64 text-center">
-      <Image 
+      <img 
         src={`/images/${image}.webp`}
         alt="Carousel Card Image"
         width={1000}

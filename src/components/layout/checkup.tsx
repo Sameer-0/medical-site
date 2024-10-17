@@ -6,7 +6,7 @@ const Checkup = () => {
     <div className="bg-[url(/images/pages/landing/checkup-bg.webp)]">
       <div className="grid grid-cols-12 px-4 gap-x-5 md:px-24 py-10 md:py-0">
         <div className="col-span-full md:col-span-4 mt-10">
-          <Image
+          <img
             src="/images/pages/landing/watchpharma.jpg"
             alt="Checkup"
             width={800}

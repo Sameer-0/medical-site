@@ -11,7 +11,7 @@ const BottomHeader = () => {
   return (
     <header className="bg-white sticky top-0 left-0 right-0 z-30 container pt-4 pb-1 shadow-md">
       <nav className="flex justify-between items-center pb-4">
-        <Image src="/images/logo.webp" alt="Logo" width={200} height={200} />
+        <img src="/images/logo.webp" alt="Logo" width={200} height={200} />
         <ul className="hidden md:flex gap-x-7 font-semibold text-gray-700 dark:text-gray-300">
           {HEADER.map((item) => (
             item.child && item.child.length > 1 ? 
