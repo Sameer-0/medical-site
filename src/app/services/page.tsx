@@ -23,7 +23,7 @@ const ServicePage = () => {
           </div>
 
           <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 ">
-            <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
+            <div className="hover:scale-105 transition-all duration-400 rounded-lg hover:bg-gray-200">
               <img width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/hiv.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
@@ -59,7 +59,7 @@ const ServicePage = () => {
               </div>
             </div>         
 
-            <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
+            <div className="hover:scale-105 transition-all duration-400 rounded-lg hover:bg-gray-200">
               <img width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/pcare2.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
@@ -91,7 +91,7 @@ const ServicePage = () => {
           
 
           <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2">
-            <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
+            <div className="hover:scale-105 transition-all duration-400 rounded-lg hover:bg-gray-200">
               <img width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/prep1.png" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
@@ -121,7 +121,7 @@ const ServicePage = () => {
               </div>
             </div>
 
-            <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
+            <div className="hover:scale-105 transition-all duration-400 rounded-lg hover:bg-gray-200">
               <img width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/pep.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
@@ -151,7 +151,7 @@ const ServicePage = () => {
         </div>
         <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 !mb-16">
 
-          <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
+          <div className="hover:scale-105 transition-all duration-400 rounded-lg hover:bg-gray-200">
               <img width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/care.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
@@ -177,7 +177,7 @@ const ServicePage = () => {
               </div>
             </div>
 
-            <div className="hover:scale-105 transition-all duration-400 hover:bg-gray-200">
+            <div className="hover:scale-105 transition-all duration-400 rounded-lg hover:bg-gray-200">
               <img width={500} height={500} className="relative z-10 object-cover w-full rounded-md h-96" src="/images/pages/landing/fd.jpg" alt="" />
 
               <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
