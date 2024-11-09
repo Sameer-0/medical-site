@@ -14,16 +14,16 @@ const BottomHeader = () => {
         <img src="/images/logo.webp" alt="Logo" width={200} height={200} />
         <ul className="hidden md:flex gap-x-7 font-semibold text-gray-700 dark:text-gray-300">
           {HEADER.map((item) => (
-            item.child && item.child.length > 1 ? 
+            item?.child && item?.child.length > 1 ? 
               <li className="!cursor-pointer flex relative group" key={item.label}>
               <a className="mr-1">
                 {item.label}
               </a>
               <i className="fa-solid fa-chevron-down fa-2xs pt-3"></i>
               <ul className="absolute bg-white p-3 w-52 top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
-                {item.child.map((child) => (
+                {item?.child.map((child) => (
                   <li className="text-sm hover:bg-slate-100 leading-8" key={child.label}>
-                    <a href={child.path} className="px-4">{child.label}</a>
+                    <Link href={child.path} className="px-4">{child.label}</Link>
                   </li>
                 ))}
               </ul>

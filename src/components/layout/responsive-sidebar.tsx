@@ -15,11 +15,8 @@ import Link from "next/link";
 import { Separator } from "../ui/separator";
 import {
   Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
 } from "../ui/accordion";
-import { HEADER } from "@/data";
+import { RESPONSIVE_HEADER } from "@/data";
 
 export function SidebarDrawer() {
   return (
@@ -31,38 +28,22 @@ export function SidebarDrawer() {
       </SheetTrigger>
       <SheetContent className="z-[9999]  bg-white">
         <SheetHeader>
-          <SheetTitle className="text-primary">Menu Content</SheetTitle>
+          <SheetTitle className="text-primary">Menu</SheetTitle>
         </SheetHeader>
         <Separator className="my-4" />
-        <div className="space-y-2">
-          <Accordion type="single" collapsible>
-            {HEADER.map((val, i) =>
-              // val.more ? (
-              //   <AccordionItem key={i} value={"item-" + i}>
-              //     <AccordionTrigger>{val.name}</AccordionTrigger>
-              //     <AccordionContent>
-              //       <ul className="space-y-3">
-              //         {val.more.map((v, idx) => (
-              //           <li key={idx} className="pl-2">
-              //             <div>
-              //               <Link href={v.path}>{v.name}</Link>
-              //             </div>
-              //           </li>
-              //         ))}
-              //       </ul>
-              //     </AccordionContent>
-              //   </AccordionItem>
-              // ) : (
-              // )
-                <SheetTrigger
-                  key={i}
-                  className="w-full text-left py-5"
-                  asChild
-                >
-                  <Link href={val.path}>{val.label}</Link>
-                </SheetTrigger>
+        <div>
+            {RESPONSIVE_HEADER.map((val, i) =>
+              <SheetClose
+                key={i}
+                className="w-full h-10 text-left"
+                asChild
+              >
+                <>
+                  <Link className="block" href={val.path}>{val.label}</Link>
+                  <br />
+                </>
+              </SheetClose>
             )}
-          </Accordion>
         </div>
       </SheetContent>
     </Sheet>

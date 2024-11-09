@@ -30,3 +30,26 @@ export const HEADER = [
     path: "/contact",
   },
 ]
+
+export const RESPONSIVE_HEADER = [
+  {
+    label: "Home",
+    path: "/",
+  },
+  {
+    label: "About Us",
+    path: "/about",
+  },
+  {
+    label: "Services",
+    path: "/services",
+  },
+  {
+    label: "Team",
+    path: "/team",
+  },
+  {
+    label: "Contact Us",
+    path: "/contact",
+  },
+]
